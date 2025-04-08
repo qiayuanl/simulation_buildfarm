@@ -1,0 +1,37 @@
+name: Builder Humble amd64
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ros2.repos
+jobs:
+  build_testing:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: google-deepmind/mujoco
+          path: 'src/mujoco'
+          ref: '3.2.7'
+          fetch-tags: true
+      - uses: actions/checkout@v4
+        with:
+          repository: rxdu/mujoco_sim_ros2
+          path: 'src/mujoco_sim_ros2'
+          fetch-tags: true
+      - uses: actions/checkout@v4
+        with:
+          repository: qiayuanl/mujoco_ros2_control
+          token: ${{ secrets.GH_PAT }}
+          path: 'src/mujoco_ros2_control'
+          ref: 'legged_control'
+          fetch-tags: true
+      - uses: qiayuanl/ros-deb-builder-action@main
+        with:
+          DEB_DISTRO: jammy
+          ROS_DISTRO: humble
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SQUASH_HISTORY: true
+          SKIP_CHECKOUT: true
