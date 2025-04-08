@@ -1,0 +1,13 @@
+repositories:
+  mujoco_ament:
+    type: git
+    url: https://github.com/qiayuanl/mujoco_ament
+    version: bf21e487a623932308a38092755c3907529eb60a
+  mujoco_ros2_control:
+    type: git
+    url: https://github.com/qiayuanl/mujoco_ros2_control
+    version: 106de0a80c3761df868ef9c89dcfdbcfe4aaf9c6
+  mujoco_sim_ros2:
+    type: git
+    url: https://github.com/qiayuanl/mujoco_sim_ros2
+    version: 6ebe2803c28a2d828e65926b8e345eba528d9276
