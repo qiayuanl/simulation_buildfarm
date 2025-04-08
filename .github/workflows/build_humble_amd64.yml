@@ -12,13 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/checkout@v4
         with:
-          repository: google-deepmind/mujoco
-          path: 'src/mujoco'
-          ref: '3.2.7'
+          repository: qiayuanl/mujoco_ament
+          path: 'src/mujoco_ament'
           fetch-tags: true
       - uses: actions/checkout@v4
         with:
-          repository: rxdu/mujoco_sim_ros2
+          repository: qiayuanl/mujoco_sim_ros2
           path: 'src/mujoco_sim_ros2'
           fetch-tags: true
       - uses: actions/checkout@v4
