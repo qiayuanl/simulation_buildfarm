@@ -1,124 +1,124 @@
 Package: ros-humble-mujoco-ament
 Architecture: amd64
-Version: 0-2025.04.20.08.04
+Version: 0-2025.05.14.05.53
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 4526
 Depends: libc6 (>= 2.16)
-Filename: ./ros-humble-mujoco-ament_0-2025.04.20.08.04_amd64.deb
-Size: 1497036
-MD5sum: 1270cb53a0dba4d4f100cd6a6b308159
-SHA1: 2644d4c3b533d9c1f2fba81aab882021c869b921
-SHA256: e0276a8fbe8a1c5653fba9f8b1b6c6d255b2261f72329456c7f0c764b5b19ba4
-SHA512: c540bcf0fa2d306c7003fd011919bac07cb0aaff998faf6c9be233a8dfb00049c40f6941c5054b6dc276687bdcf4963fbe733066cad33976c564ac3ff18c96d2
+Filename: ./ros-humble-mujoco-ament_0-2025.05.14.05.53_amd64.deb
+Size: 1497010
+MD5sum: e70c5a3eb786028e2729bb7ec7f058bb
+SHA1: f68ff16367b07e6588ff2da411639ce989ab9163
+SHA256: 9d1770fadaa23cab68c11cf5fe38dbc0c04f99dc256dd14ebf778faebf4b7b81
+SHA512: bfd77118d54b3ac660eaeb3f340b1db9c3e526cb427448844196d128c2a5c722d5e91a3f78db54763e871c0c01a8c17b5c23598cce4449c9b1ee341b39f558a3
 Description: Model of legged robot
 
 Package: ros-humble-mujoco-ros2-control-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2025.04.20.08.08
+Version: 0-2025.05.14.05.56
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-mujoco-ros2-control
 Maintainer: Sangtaek Lee <sangteak601@gmail.com>
-Installed-Size: 2960
-Depends: ros-humble-mujoco-ros2-control (= 0-2025.04.20.08.08)
-Filename: ./ros-humble-mujoco-ros2-control-dbgsym_0-2025.04.20.08.08_amd64.ddeb
-Size: 2806664
-MD5sum: 9212405c74248dc7986a837f8edd5e00
-SHA1: 1feadf9476c567533cf76d15bd7fad75fc0aec1b
-SHA256: 705be376c90f009fef5d4271719d41e9a5588725a33ee0d087f66d95662e0f43
-SHA512: b3973a102bef74e9330e9f7d3ecd06bef1663f1414af796d49a520274162c1356a28f98f8b5251e9bb75222a3d881678d8b5fc75d3e301eb4e7252e1b34b43cd
+Installed-Size: 2968
+Depends: ros-humble-mujoco-ros2-control (= 0-2025.05.14.05.56)
+Filename: ./ros-humble-mujoco-ros2-control-dbgsym_0-2025.05.14.05.56_amd64.ddeb
+Size: 2815958
+MD5sum: 3117054ecf6ebdd28602bab9ed35ff7d
+SHA1: 5d33322b1e47fbae6598a64a039b48dcb94aff51
+SHA256: c420fe2751301d34588f2e2f6d8940a22cd5e0cce46f448d192ac1a0633cf924
+SHA512: 6a7d0aa5f2c5f767edb82d5f2f6ec9f9ab3b79e14fb61a96db4be223e29dc6df55444673333ae5fb41a395c81592fc33ef4f2cee63180d4751781113773efb41
 Description: debug symbols for ros-humble-mujoco-ros2-control
-Build-Ids: 0e702a110afc2928748d33a939ec8b19c7a2af53 988daf900c924702b7122c1afda86059ff409d3c
+Build-Ids: 11239322e45c00d6c3973ede4399a572cd782b21 4b3cea3679ad13193c5e9550faa4d915dc08ca2a
 
 Package: ros-humble-mujoco-ros2-control-demos-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2025.04.20.08.05
+Version: 0-2025.05.14.05.54
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-mujoco-ros2-control-demos
 Maintainer: Sangtaek Lee <sangteak601@gmail.com>
 Installed-Size: 5419
-Depends: ros-humble-mujoco-ros2-control-demos (= 0-2025.04.20.08.05)
-Filename: ./ros-humble-mujoco-ros2-control-demos-dbgsym_0-2025.04.20.08.05_amd64.ddeb
-Size: 4768536
-MD5sum: 7137d7be4514bc4a16b7284ef2ebcb33
-SHA1: 1be558359bf37c510753cf9716448040bc91b4f5
-SHA256: 7e296381900f74f835a7f08a2b173d492e71616018f617bf9c250b1a577fb4ec
-SHA512: cfb63d71402c2d4c3ffcc0c64bb5240f4a39ccc136df28d8ad266390782a4fa582f174597c50b170b1153ab6511f60768744bc9fdbecd65fb1840b0e7799f4a6
+Depends: ros-humble-mujoco-ros2-control-demos (= 0-2025.05.14.05.54)
+Filename: ./ros-humble-mujoco-ros2-control-demos-dbgsym_0-2025.05.14.05.54_amd64.ddeb
+Size: 4766106
+MD5sum: 0423ac8903a5c687bbfc2edd9d868096
+SHA1: 67e7819dc27ae8d23e9212e0a12c48d18f09e2e9
+SHA256: 621655a6b881e4b0a1130a0120c26f85f31d95c21204631258d6079f38727aab
+SHA512: fc09e1c0aa97bfb9af069a20a4af861bd48dac954de7f2e8b0f730ff212f61e8dc8a6abc458ff4d207eb9e349fad592bb51ceec383d676aeb68b39e8d1330998
 Description: debug symbols for ros-humble-mujoco-ros2-control-demos
-Build-Ids: 11be65e80baf34ee50e15a762a9475b4121a7bfa 27965a4ed63886f89d0f3a2da74f4954db9ca1e0 29c63b0123a3731ecd06c211e540925cfc74d1af 9b02067dec3abfa157e27f90c78d6526caab1371 ae900237fbd82ce582bd230f4fda361221e577de efc4a2273675367d63679b1b06783d6eac292a30 f2b942c30216c4cfe7de6f6d1e7f3cd8a6693b80
+Build-Ids: 346fa4c96dd1aca95ca7d09199bfee2621abcd46 51f527e6a4baca8efc6bcb401e9a49e90189eabc 71e67871a2ba56589be2afce92ffd867f66b5778 af42c6d2c663735bec589ecd063cb77bc720ac6e b5c6cbc75163c95fb37bd849b63510219b5a06df cce3462598f935ec39b284f3ea3a41c3c5e58d52 cd8bf3f24c299f18d1e90976ebc7f91025cbc45b
 
 Package: ros-humble-mujoco-ros2-control-demos
 Architecture: amd64
-Version: 0-2025.04.20.08.05
+Version: 0-2025.05.14.05.54
 Priority: optional
 Section: misc
 Maintainer: Sangtaek Lee <sangteak601@gmail.com>
 Installed-Size: 1004
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-control-msgs, ros-humble-force-torque-sensor-broadcaster, ros-humble-imu-sensor-broadcaster, ros-humble-joint-trajectory-controller, ros-humble-position-controllers, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-std-msgs, ros-humble-velocity-controllers
-Filename: ./ros-humble-mujoco-ros2-control-demos_0-2025.04.20.08.05_amd64.deb
-Size: 132528
-MD5sum: e10110d7c965e3c3ee3c78fff23dfdd1
-SHA1: a76fa53838ab3e48a86d1af97c00a1d49d185f56
-SHA256: a53b5998413e548eb6415efd50f64b8ed2d0ab0a96e34e0a727902706925b094
-SHA512: edb3583c3391720452cdc4657782162da32bf608a45e666da255c58fc75691f1ccc71381e84e6c6ac851a0ec8c7fbc58adee55c7b5fee731e4f3d768cf972c13
+Filename: ./ros-humble-mujoco-ros2-control-demos_0-2025.05.14.05.54_amd64.deb
+Size: 132536
+MD5sum: 3252f6d05f94d4fc80f4ffc4783e325f
+SHA1: 401919707cc95c49732816a03930c45ff338335e
+SHA256: 96370e4a464948851ab0b31df1a4480ed76de105a7c84714fe143798e65449d7
+SHA512: df002e5e0287a27d583cbb0b171255b3c2c783776b9738410dd89df51b6434b1053330c522fc0fdfabc917923e761a9e46087ca73ffbbabbb15e6cc58e1df1fa
 Description: mujoco_ros2_control_demos
 
 Package: ros-humble-mujoco-ros2-control
 Architecture: amd64
-Version: 0-2025.04.20.08.08
+Version: 0-2025.05.14.05.56
 Priority: optional
 Section: misc
 Maintainer: Sangtaek Lee <sangteak601@gmail.com>
 Installed-Size: 526
-Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-humble-mujoco-ament, libeigen3-dev, libglfw3-dev, ros-humble-controller-manager, ros-humble-effort-controllers, ros-humble-hardware-interface, ros-humble-joint-limits, ros-humble-joint-state-broadcaster, ros-humble-mujoco-sim-ros2, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-ros2controlcli, ros-humble-urdf
-Filename: ./ros-humble-mujoco-ros2-control_0-2025.04.20.08.08_amd64.deb
-Size: 158670
-MD5sum: 5b80339f7f97bda00a299e72e1901a38
-SHA1: b5d179388f09ef8c2334ecff7f7adb55374bd7e5
-SHA256: ca00ad4e2fc502935966a591f00cb553e274a26ce231552ee6035580cd15d46a
-SHA512: 7db757c67443f97a111023b7e847aaf01d4714752a2a166acd08d3cda22086efd8123d8865d0a6dec3c1b3183ccc6a6e2ec61ea8a8e34b93ac37d07e7914bea3
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-humble-mujoco-ament, libeigen3-dev, libglfw3-dev, ros-humble-controller-manager, ros-humble-effort-controllers, ros-humble-hardware-interface, ros-humble-joint-limits, ros-humble-joint-state-broadcaster, ros-humble-mujoco-sim-ros2, ros-humble-nav-msgs, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-ros2controlcli, ros-humble-urdf
+Filename: ./ros-humble-mujoco-ros2-control_0-2025.05.14.05.56_amd64.deb
+Size: 158724
+MD5sum: 2be29163386ac11b373e62bd4060bf79
+SHA1: e327e62e34958212aeedb5fc39f58a62c43957fe
+SHA256: 5c0111c6684626d9b0577a863de4197fe62cb2aed64982318deead00148022e8
+SHA512: f13b3267359ea4aa5dc79b89e0a6cba903ecf332a10219b122a352a76b8ed56da3304873eaa3fb334a24de5af2de8be8ce91b623112d13afd221ed3a1966dc86
 Description: mujoco_ros2_control
 
 Package: ros-humble-mujoco-sim-ros2-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2025.04.20.08.06
+Version: 0-2025.05.14.05.55
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-mujoco-sim-ros2
 Maintainer: rdu <ruixiang.du@gmail.com>
 Installed-Size: 1750
-Depends: ros-humble-mujoco-sim-ros2 (= 0-2025.04.20.08.06)
-Filename: ./ros-humble-mujoco-sim-ros2-dbgsym_0-2025.04.20.08.06_amd64.ddeb
-Size: 1657906
-MD5sum: 52eac120635cbc7e109dff9ae1f0194e
-SHA1: 7d4296e1fc5a14e4bd48ac9776332d60bd923f6a
-SHA256: 59624782c3a4b2f9db08ac54da36257de3156aa9167da16a7022041b0334ec79
-SHA512: c419233bdd8b96e88e6c03e271069f3d3af707327401c1ed3241f99deea4ba52703970d84e428d294e14d36747b8fe79965665115c721d88acc98a76eb7f8bb1
+Depends: ros-humble-mujoco-sim-ros2 (= 0-2025.05.14.05.55)
+Filename: ./ros-humble-mujoco-sim-ros2-dbgsym_0-2025.05.14.05.55_amd64.ddeb
+Size: 1657902
+MD5sum: 022bd5c8cedb0a90f43b5d2ea7e8146f
+SHA1: b0b5284bf6edb7a1d7d98e9f5f7e5b9700bf0d18
+SHA256: 5653d82271369965af4d146d15eeadbba98322996938a60f49751e0fa2e1fe9a
+SHA512: 41758b3c61a9e2b2a127e6c3c26dce3f405e2d191e121661dce8709fd7a8157ca7c65c88276b541b1d977adeac46c33a8fb060c0b09240c5a71bee2e78d9150c
 Description: debug symbols for ros-humble-mujoco-sim-ros2
-Build-Ids: d6c3491f97f3066965cd767acc98a80817c97073
+Build-Ids: c897891e7857afd761e3c4d57a6eaed67b21ec85
 
 Package: ros-humble-mujoco-sim-ros2
 Architecture: amd64
-Version: 0-2025.04.20.08.06
+Version: 0-2025.05.14.05.55
 Priority: optional
 Section: misc
 Maintainer: rdu <ruixiang.du@gmail.com>
 Installed-Size: 458
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libglfw3 (>= 3.2), libstdc++6 (>= 12), libtinyxml2-9 (>= 8.0.0), ros-humble-mujoco-ament, git, libglfw3-dev, ros-humble-ament-index-cpp, ros-humble-controller-manager, ros-humble-pluginlib, ros-humble-rclcpp
-Filename: ./ros-humble-mujoco-sim-ros2_0-2025.04.20.08.06_amd64.deb
-Size: 162138
-MD5sum: e9d48a8f0c776de0b88f5fbeacd61bf2
-SHA1: 542e4ef2e96d8235be149174639f660f44308ce3
-SHA256: ea0c2e3e6792b1084b2b42360f79189fa482410892e77ff036830929438be2b0
-SHA512: 7bb86cfa27b43e0185ed52220dc327ff4ffa43c77ac22f6308b12509110a055a1d5beae7c073950e552b1997963c998885089a6b50a82ae3363a9b78343a00d1
+Filename: ./ros-humble-mujoco-sim-ros2_0-2025.05.14.05.55_amd64.deb
+Size: 162148
+MD5sum: d58e9ff5acd2b0958513307a7ad16c62
+SHA1: 323668c78177abacf3eb5ce5fd2d9cef1384cc02
+SHA256: 54b025eb6dbef71d20ef49d1515f0ad8b4f1d68560d7a6be590e68d105de49a9
+SHA512: cd5de155eb483f4be477b664ff0a5d6886ee2bb808e1e96025d5420c39e11a0608b5c51a0916464c0f04f734fa91e168644ed1dec98b8c5ee37dbac72f088267
 Description: Mujoco simulate app with ROS2 integration
 

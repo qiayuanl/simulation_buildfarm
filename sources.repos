@@ -6,7 +6,7 @@ repositories:
   mujoco_ros2_control:
     type: git
     url: https://github.com/qiayuanl/mujoco_ros2_control
-    version: 9ae4a09646eb2e83ed2ead0a6668bfba60e31777
+    version: f9f89e973608c57de02e20ece1d0afe164102042
   mujoco_sim_ros2:
     type: git
     url: https://github.com/qiayuanl/mujoco_sim_ros2
