@@ -1,0 +1,12 @@
+mujoco_ament:
+  ubuntu:
+  - ros-jazzy-mujoco-ament
+mujoco_ros2_control_demos:
+  ubuntu:
+  - ros-jazzy-mujoco-ros2-control-demos
+mujoco_sim_ros2:
+  ubuntu:
+  - ros-jazzy-mujoco-sim-ros2
+mujoco_ros2_control:
+  ubuntu:
+  - ros-jazzy-mujoco-ros2-control
