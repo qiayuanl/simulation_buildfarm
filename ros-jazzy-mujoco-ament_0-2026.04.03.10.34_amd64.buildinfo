@@ -2,16 +2,16 @@ Format: 1.0
 Source: ros-jazzy-mujoco-ament
 Binary: ros-jazzy-mujoco-ament
 Architecture: amd64
-Version: 0-2026.03.31.10.44
+Version: 0-2026.04.03.10.34
 Checksums-Md5:
- 95ca05ef3d4f822a1fcd287598755d4f 1485170 ros-jazzy-mujoco-ament_0-2026.03.31.10.44_amd64.deb
+ 68ca90a0db077da3f9925e34d1498385 1485350 ros-jazzy-mujoco-ament_0-2026.04.03.10.34_amd64.deb
 Checksums-Sha1:
- 76056d57930a9007307009e734285cbd80757baf 1485170 ros-jazzy-mujoco-ament_0-2026.03.31.10.44_amd64.deb
+ fb0d058f296efc86d426f47dfd1e6d6a8bdd71d8 1485350 ros-jazzy-mujoco-ament_0-2026.04.03.10.34_amd64.deb
 Checksums-Sha256:
- 7b2685b747c506aebedaf02cadf26364df114a71b9c0ea2e5780a0a9455561b8 1485170 ros-jazzy-mujoco-ament_0-2026.03.31.10.44_amd64.deb
+ da04c3bc714a2497b999c8dae93f0c2e3b5ec0bab69de0bf9ba240b37fe46cd2 1485350 ros-jazzy-mujoco-ament_0-2026.04.03.10.34_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 31 Mar 2026 10:44:40 +0000
+Build-Date: Fri, 03 Apr 2026 10:35:26 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -73,7 +73,7 @@ Installed-Build-Depends:
  intltool-debian (= 0.35.0+20060710.6),
  libacl1 (= 2.3.2-1build1.1),
  libarchive-zip-perl (= 1.68-1),
- libarchive13t64 (= 3.7.2-2ubuntu0.5),
+ libarchive13t64 (= 3.7.2-2ubuntu0.6),
  libasan8 (= 14.2.0-4ubuntu2~24.04.1),
  libatomic1 (= 14.2.0-4ubuntu2~24.04.1),
  libattr1 (= 1:2.5.2-1build1.1),
@@ -184,7 +184,7 @@ Installed-Build-Depends:
  libuv1t64 (= 1.48.0-1.1build1),
  libxml2 (= 2.9.14+dfsg-1.3ubuntu3.7),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-106.106),
+ linux-libc-dev (= 6.8.0-107.107),
  login (= 1:4.13+dfsg1-4ubuntu3.2),
  lto-disabled-list (= 47),
  m4 (= 1.4.19-4build1),
@@ -247,7 +247,7 @@ Installed-Build-Depends:
  sgml-base (= 1.31),
  sysvinit-utils (= 3.08-6ubuntu3),
  tar (= 1.35+dfsg-3build1),
- tzdata (= 2025b-0ubuntu0.24.04.1),
+ tzdata (= 2026a-0ubuntu0.24.04.1),
  util-linux (= 2.39.3-9ubuntu6.5),
  xml-core (= 0.19),
  xz-utils (= 5.6.1+really5.4.5-1ubuntu0.2),
@@ -258,4 +258,4 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1774953847"
+ SOURCE_DATE_EPOCH="1775212491"
