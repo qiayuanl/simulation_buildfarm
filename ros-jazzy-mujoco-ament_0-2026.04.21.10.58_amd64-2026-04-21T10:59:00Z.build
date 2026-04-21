@@ -1,35 +1,35 @@
-sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on runnervmtxuyr.mklpuzqhpy1efhtd0jxsic2jwa.gx.internal.cloudapp.net
+sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on runnervmrc6n4.hlulmgn0qm1ulolaocpdbm3sgb.gx.internal.cloudapp.net
 
 +===================================================================================+
-| ros-jazzy-mujoco-ament 0-2026.04.14.10.56 (amd64) Tue, 14 Apr 2026 10:56:21 +0000 |
+| ros-jazzy-mujoco-ament 0-2026.04.21.10.58 (amd64) Tue, 21 Apr 2026 10:59:00 +0000 |
 +===================================================================================+
 
 Package: ros-jazzy-mujoco-ament
-Version: 0-2026.04.14.10.56
-Source Version: 0-2026.04.14.10.56
+Version: 0-2026.04.21.10.58
+Source Version: 0-2026.04.21.10.58
 Distribution: noble
 Machine Architecture: amd64
 Host Architecture: amd64
 Build Architecture: amd64
 Build Type: binary
 
-Unpacking /home/runner/.cache/sbuild/noble-amd64.tar to /tmp/tmp.sbuild.Oqk6aQ9xwF...
+Unpacking /home/runner/.cache/sbuild/noble-amd64.tar to /tmp/tmp.sbuild.N_ia2al14M...
 configuration error - unknown item 'NONEXISTENT' (notify administrator)
 configuration error - unknown item 'NONEXISTENT' (notify administrator)
 configuration error - unknown item 'NONEXISTENT' (notify administrator)
 I: NOTICE: Log filtering will replace 'sbuild-unshare-dummy-location' with '<<CHROOT>>'
-I: NOTICE: Log filtering will replace 'build/package//resolver-YnBava' with '<<RESOLVERDIR>>'
+I: NOTICE: Log filtering will replace 'build/package//resolver-krWhmH' with '<<RESOLVERDIR>>'
 
 +------------------------------------------------------------------------------+
 | Update chroot                                                                |
 +------------------------------------------------------------------------------+
 
-Get:1 file:/build/package//resolver-G5smpk/apt_archive ./ InRelease
-Ign:1 file:/build/package//resolver-G5smpk/apt_archive ./ InRelease
-Get:2 file:/build/package//resolver-G5smpk/apt_archive ./ Release [568 B]
-Get:2 file:/build/package//resolver-G5smpk/apt_archive ./ Release [568 B]
-Get:3 file:/build/package//resolver-G5smpk/apt_archive ./ Release.gpg
-Ign:3 file:/build/package//resolver-G5smpk/apt_archive ./ Release.gpg
+Get:1 file:/build/package//resolver-Bc7R69/apt_archive ./ InRelease
+Ign:1 file:/build/package//resolver-Bc7R69/apt_archive ./ InRelease
+Get:2 file:/build/package//resolver-Bc7R69/apt_archive ./ Release [568 B]
+Get:2 file:/build/package//resolver-Bc7R69/apt_archive ./ Release [568 B]
+Get:3 file:/build/package//resolver-Bc7R69/apt_archive ./ Release.gpg
+Ign:3 file:/build/package//resolver-Bc7R69/apt_archive ./ Release.gpg
 Get:4 http://archive.ubuntu.com/ubuntu noble InRelease [256 kB]
 Get:5 http://packages.ros.org/ros2/ubuntu noble InRelease [4676 B]
 Get:6 http://packages.ros.org/ros2/ubuntu noble/main amd64 Packages [1862 kB]
@@ -38,10 +38,10 @@ Get:8 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
 Get:9 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages [1401 kB]
 Get:10 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages [15.0 MB]
 Get:11 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1666 kB]
-Get:12 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1896 kB]
-Get:13 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1586 kB]
+Get:12 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1910 kB]
+Get:13 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1613 kB]
 Get:14 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1170 kB]
-Fetched 25.1 MB in 3s (9590 kB/s)
+Fetched 25.2 MB in 2s (10.2 MB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -57,7 +57,7 @@ Calculating upgrade...
 Local sources
 -------------
 
-/home/runner/work/simulation_buildfarm/simulation_buildfarm/src/ros-jazzy-mujoco-ament_0-2026.04.14.10.56.dsc exists in /home/runner/work/simulation_buildfarm/simulation_buildfarm/src; copying to chroot
+/home/runner/work/simulation_buildfarm/simulation_buildfarm/src/ros-jazzy-mujoco-ament_0-2026.04.21.10.58.dsc exists in /home/runner/work/simulation_buildfarm/simulation_buildfarm/src; copying to chroot
 I: NOTICE: Log filtering will replace 'build/package//package' with '<<PKGBUILDDIR>>'
 I: NOTICE: Log filtering will replace 'build/package/' with '<<BUILDDIR>>'
 
@@ -79,12 +79,12 @@ Get:4 copy:/<<RESOLVERDIR>>/apt_archive ./ Sources [665 B]
 Get:5 copy:/<<RESOLVERDIR>>/apt_archive ./ Packages [697 B]
 Fetched 1942 B in 0s (0 B/s)
 Reading package lists...
-Get:1 file:/<<BUILDDIR>>/resolver-G5smpk/apt_archive ./ InRelease
-Ign:1 file:/<<BUILDDIR>>/resolver-G5smpk/apt_archive ./ InRelease
-Get:2 file:/<<BUILDDIR>>/resolver-G5smpk/apt_archive ./ Release [568 B]
-Get:2 file:/<<BUILDDIR>>/resolver-G5smpk/apt_archive ./ Release [568 B]
-Get:3 file:/<<BUILDDIR>>/resolver-G5smpk/apt_archive ./ Release.gpg
-Ign:3 file:/<<BUILDDIR>>/resolver-G5smpk/apt_archive ./ Release.gpg
+Get:1 file:/<<BUILDDIR>>/resolver-Bc7R69/apt_archive ./ InRelease
+Ign:1 file:/<<BUILDDIR>>/resolver-Bc7R69/apt_archive ./ InRelease
+Get:2 file:/<<BUILDDIR>>/resolver-Bc7R69/apt_archive ./ Release [568 B]
+Get:2 file:/<<BUILDDIR>>/resolver-Bc7R69/apt_archive ./ Release [568 B]
+Get:3 file:/<<BUILDDIR>>/resolver-Bc7R69/apt_archive ./ Release.gpg
+Ign:3 file:/<<BUILDDIR>>/resolver-Bc7R69/apt_archive ./ Release.gpg
 Reading package lists...
 Hit:1 http://packages.ros.org/ros2/ubuntu noble InRelease
 Reading package lists...
@@ -175,34 +175,34 @@ The following NEW packages will be installed:
 0 upgraded, 109 newly installed, 0 to remove and 0 not upgraded.
 Need to get 45.1 MB of archives.
 After this operation, 168 MB of additional disk space will be used.
-Get:1 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [688 B]
-Get:2 http://packages.ros.org/ros2/ubuntu noble/main amd64 python3-catkin-pkg-modules all 1.1.0-2 [43.3 kB]
-Get:3 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-package amd64 0.16.5-1noble.20260121.174946 [25.9 kB]
-Get:4 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-core amd64 2.5.6-2noble.20260224.191131 [27.1 kB]
-Get:5 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ros-workspace amd64 1.0.3-7noble.20260224.191628 [14.9 kB]
-Get:6 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-definitions amd64 2.5.6-2noble.20260224.232207 [7262 B]
-Get:7 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-libraries amd64 2.5.6-2noble.20260225.042312 [7192 B]
-Get:8 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-dependencies amd64 2.5.6-2noble.20260225.043730 [8638 B]
-Get:9 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-include-directories amd64 2.5.6-2noble.20260224.232223 [7568 B]
-Get:10 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-libraries amd64 2.5.6-2noble.20260224.232254 [9598 B]
-Get:11 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-interfaces amd64 2.5.6-2noble.20260225.042039 [7976 B]
-Get:12 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-link-flags amd64 2.5.6-2noble.20260225.042107 [7180 B]
-Get:13 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-targets amd64 2.5.6-2noble.20260225.042100 [8286 B]
-Get:14 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-gen-version-h amd64 2.5.6-2noble.20260225.042237 [9758 B]
-Get:15 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-python amd64 2.5.6-2noble.20260225.042312 [10.3 kB]
-Get:16 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-include-directories amd64 2.5.6-2noble.20260225.042241 [7342 B]
-Get:17 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-target-dependencies amd64 2.5.6-2noble.20260225.043936 [9516 B]
-Get:18 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-test amd64 2.5.6-2noble.20260225.143205 [15.5 kB]
-Get:19 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-version amd64 2.5.6-2noble.20260225.042330 [7546 B]
-Get:20 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake amd64 2.5.6-2noble.20260225.222913 [7482 B]
-Get:21 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-gtest-vendor amd64 1.14.9000-2noble.20260225.055309 [183 kB]
-Get:22 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-gtest amd64 2.5.6-2noble.20260225.145055 [10.3 kB]
-Get:23 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-gmock-vendor amd64 1.14.9000-2noble.20260225.143751 [102 kB]
-Get:24 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-gmock amd64 2.5.6-2noble.20260225.215706 [10.1 kB]
-Get:25 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-auto amd64 2.5.6-2noble.20260225.232257 [11.0 kB]
-Get:26 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-minimal amd64 3.12.3-1ubuntu0.12 [837 kB]
-Get:27 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libexpat1 amd64 2.6.1-2ubuntu0.4 [88.2 kB]
-Get:28 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12-minimal amd64 3.12.3-1ubuntu0.12 [2334 kB]
+Get:1 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [690 B]
+Get:2 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-minimal amd64 3.12.3-1ubuntu0.12 [837 kB]
+Get:3 http://packages.ros.org/ros2/ubuntu noble/main amd64 python3-catkin-pkg-modules all 1.1.0-2 [43.3 kB]
+Get:4 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-package amd64 0.16.5-1noble.20260121.174946 [25.9 kB]
+Get:5 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-core amd64 2.5.6-2noble.20260224.191131 [27.1 kB]
+Get:6 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ros-workspace amd64 1.0.3-7noble.20260224.191628 [14.9 kB]
+Get:7 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-definitions amd64 2.5.6-2noble.20260224.232207 [7262 B]
+Get:8 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-libraries amd64 2.5.6-2noble.20260225.042312 [7192 B]
+Get:9 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-dependencies amd64 2.5.6-2noble.20260225.043730 [8638 B]
+Get:10 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-include-directories amd64 2.5.6-2noble.20260224.232223 [7568 B]
+Get:11 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-libraries amd64 2.5.6-2noble.20260224.232254 [9598 B]
+Get:12 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-interfaces amd64 2.5.6-2noble.20260225.042039 [7976 B]
+Get:13 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-link-flags amd64 2.5.6-2noble.20260225.042107 [7180 B]
+Get:14 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-targets amd64 2.5.6-2noble.20260225.042100 [8286 B]
+Get:15 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-gen-version-h amd64 2.5.6-2noble.20260225.042237 [9758 B]
+Get:16 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-python amd64 2.5.6-2noble.20260225.042312 [10.3 kB]
+Get:17 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-include-directories amd64 2.5.6-2noble.20260225.042241 [7342 B]
+Get:18 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-target-dependencies amd64 2.5.6-2noble.20260225.043936 [9516 B]
+Get:19 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-test amd64 2.5.6-2noble.20260225.143205 [15.5 kB]
+Get:20 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-version amd64 2.5.6-2noble.20260225.042330 [7546 B]
+Get:21 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake amd64 2.5.6-2noble.20260225.222913 [7482 B]
+Get:22 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-gtest-vendor amd64 1.14.9000-2noble.20260225.055309 [183 kB]
+Get:23 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libexpat1 amd64 2.6.1-2ubuntu0.4 [88.2 kB]
+Get:24 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12-minimal amd64 3.12.3-1ubuntu0.12 [2334 kB]
+Get:25 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-gtest amd64 2.5.6-2noble.20260225.145055 [10.3 kB]
+Get:26 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-gmock-vendor amd64 1.14.9000-2noble.20260225.143751 [102 kB]
+Get:27 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-gmock amd64 2.5.6-2noble.20260225.215706 [10.1 kB]
+Get:28 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-auto amd64 2.5.6-2noble.20260225.232257 [11.0 kB]
 Get:29 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-minimal amd64 3.12.3-0ubuntu2.1 [27.4 kB]
 Get:30 http://archive.ubuntu.com/ubuntu noble/main amd64 media-types all 10.1.0 [27.5 kB]
 Get:31 http://archive.ubuntu.com/ubuntu noble/main amd64 netbase all 6.4 [13.1 kB]
@@ -285,7 +285,7 @@ Get:107 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-zipp a
 Get:108 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-importlib-metadata all 4.12.0-1 [17.8 kB]
 Get:109 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-setuptools all 68.1.2-2ubuntu1.2 [397 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 45.1 MB in 3s (13.4 MB/s)
+Fetched 45.1 MB in 1s (36.6 MB/s)
 Selecting previously unselected package libpython3.12-minimal:amd64.
 (Reading database ... 10787 files and directories currently installed.)
 Preparing to unpack .../libpython3.12-minimal_3.12.3-1ubuntu0.12_amd64.deb ...
@@ -650,8 +650,8 @@ Setting up libsasl2-modules-db:amd64 (2.1.28+dfsg1-5ubuntu3.1) ...
 Setting up tzdata (2026a-0ubuntu0.24.04.1) ...
 
 Current default time zone: 'Etc/UTC'
-Local time is now:      Tue Apr 14 10:56:42 UTC 2026.
-Universal Time is now:  Tue Apr 14 10:56:42 UTC 2026.
+Local time is now:      Tue Apr 21 10:59:19 UTC 2026.
+Universal Time is now:  Tue Apr 21 10:59:19 UTC 2026.
 Run 'dpkg-reconfigure tzdata' if you wish to change it.
 
 Setting up fakeroot (1.33-1) ...
@@ -768,22 +768,22 @@ Format: 1.0
 Source: ros-jazzy-mujoco-ament
 Binary: ros-jazzy-mujoco-ament
 Architecture: any
-Version: 0-2026.04.14.10.56
+Version: 0-2026.04.21.10.58
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Standards-Version: 3.9.2
 Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-auto
 Package-List:
  ros-jazzy-mujoco-ament deb misc optional arch=any
 Checksums-Sha1:
- a906ad617590f4f511213ccaef19708db0ee404a 17061 ros-jazzy-mujoco-ament_0-2026.04.14.10.56.tar.gz
+ 41d8fcaccd38d51e69f3c9d7de30601d79e2f953 17307 ros-jazzy-mujoco-ament_0-2026.04.21.10.58.tar.gz
 Checksums-Sha256:
- 40f5e7987233ff81263adff6f219de3283b704b7069e63c963c244cd2440e2ae 17061 ros-jazzy-mujoco-ament_0-2026.04.14.10.56.tar.gz
+ acf9340445da6563dde596753b15aa6269cd55cd2d29cb2a104bd02cb791c9a7 17307 ros-jazzy-mujoco-ament_0-2026.04.21.10.58.tar.gz
 Files:
- 27481d1a83ddf81d9031a71011ef06d0 17061 ros-jazzy-mujoco-ament_0-2026.04.14.10.56.tar.gz
+ 7ff7f62ec76ace73a91a902fce704957 17307 ros-jazzy-mujoco-ament_0-2026.04.21.10.58.tar.gz
 
-dpkg-source: warning: extracting unsigned source package (ros-jazzy-mujoco-ament_0-2026.04.14.10.56.dsc)
+dpkg-source: warning: extracting unsigned source package (ros-jazzy-mujoco-ament_0-2026.04.21.10.58.dsc)
 dpkg-source: info: extracting ros-jazzy-mujoco-ament in /<<BUILDDIR>>package
-dpkg-source: info: unpacking ros-jazzy-mujoco-ament_0-2026.04.14.10.56.tar.gz
+dpkg-source: info: unpacking ros-jazzy-mujoco-ament_0-2026.04.21.10.58.tar.gz
 
 Check disk space
 ----------------
@@ -811,7 +811,7 @@ dpkg-buildpackage
 
 Command: dpkg-buildpackage --sanitize-env -us -uc -b -rfakeroot
 dpkg-buildpackage: info: source package ros-jazzy-mujoco-ament
-dpkg-buildpackage: info: source version 0-2026.04.14.10.56
+dpkg-buildpackage: info: source version 0-2026.04.21.10.58
 dpkg-buildpackage: info: source distribution noble
 dpkg-buildpackage: info: source changed by Qiayuan Liao <liaoqiayuan@gamil.com>
  dpkg-source --before-build .
@@ -877,7 +877,7 @@ Call Stack (most recent call first):
   CMakeLists.txt:19 (FetchContent_Declare)
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
--- Configuring done (1.6s)
+-- Configuring done (1.5s)
 -- Generating done (0.0s)
 CMake Warning:
   Manually-specified variables were not used by the project:
@@ -1017,12 +1017,12 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	find debian/ros-jazzy-mujoco-ament -type f \( -name '*.so.*' -o -name '*.so' -o -name '*.la' -o -name '*.a' -o -name '*.js' -o -name '*.css' -o -name '*.scss' -o -name '*.sass' -o -name '*.jpeg' -o -name '*.jpg' -o -name '*.png' -o -name '*.gif' -o -name '*.cmxs' -o -name '*.node' \) -a -true -a -true -print0 2>/dev/null | xargs -0r chmod 0644
    dh_missing -O-v -O--buildsystem=cmake
    dh_strip -O-v -O--buildsystem=cmake
-	debugedit --build-id --build-id-seed=ros-jazzy-mujoco-ament/0-2026.04.14.10.56 debian/ros-jazzy-mujoco-ament/opt/ros/jazzy/lib/libmujoco.so.3.2.7
+	debugedit --build-id --build-id-seed=ros-jazzy-mujoco-ament/0-2026.04.21.10.58 debian/ros-jazzy-mujoco-ament/opt/ros/jazzy/lib/libmujoco.so.3.2.7
 dh_strip: warning: Could not find the BuildID in debian/ros-jazzy-mujoco-ament/opt/ros/jazzy/lib/libmujoco.so.3.2.7
-	strip --remove-section=.comment --remove-section=.note --strip-unneeded -o /tmp/aDwy7GRRCP/stripNeCqeS debian/ros-jazzy-mujoco-ament/opt/ros/jazzy/lib/libmujoco.so.3.2.7
-	chmod --reference debian/ros-jazzy-mujoco-ament/opt/ros/jazzy/lib/libmujoco.so.3.2.7 /tmp/aDwy7GRRCP/stripNeCqeS
-	cat '/tmp/aDwy7GRRCP/stripNeCqeS' > 'debian/ros-jazzy-mujoco-ament/opt/ros/jazzy/lib/libmujoco.so.3.2.7'
-	chmod --reference /tmp/aDwy7GRRCP/stripNeCqeS debian/ros-jazzy-mujoco-ament/opt/ros/jazzy/lib/libmujoco.so.3.2.7
+	strip --remove-section=.comment --remove-section=.note --strip-unneeded -o /tmp/DoITCmoNIm/stripPPszrp debian/ros-jazzy-mujoco-ament/opt/ros/jazzy/lib/libmujoco.so.3.2.7
+	chmod --reference debian/ros-jazzy-mujoco-ament/opt/ros/jazzy/lib/libmujoco.so.3.2.7 /tmp/DoITCmoNIm/stripPPszrp
+	cat '/tmp/DoITCmoNIm/stripPPszrp' > 'debian/ros-jazzy-mujoco-ament/opt/ros/jazzy/lib/libmujoco.so.3.2.7'
+	chmod --reference /tmp/DoITCmoNIm/stripPPszrp debian/ros-jazzy-mujoco-ament/opt/ros/jazzy/lib/libmujoco.so.3.2.7
    dh_makeshlibs -O-v -O--buildsystem=cmake
 	rm -f debian/ros-jazzy-mujoco-ament/DEBIAN/shlibs
 	install -m0755 -d debian/ros-jazzy-mujoco-ament/DEBIAN
@@ -1064,15 +1064,15 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	chown 0:0 -- debian/ros-jazzy-mujoco-ament/DEBIAN/md5sums
    dh_builddeb -O-v -O--buildsystem=cmake
 	dpkg-deb --build debian/ros-jazzy-mujoco-ament ..
-dpkg-deb: building package 'ros-jazzy-mujoco-ament' in '../ros-jazzy-mujoco-ament_0-2026.04.14.10.56_amd64.deb'.
- dpkg-genbuildinfo --build=binary -O../ros-jazzy-mujoco-ament_0-2026.04.14.10.56_amd64.buildinfo
- dpkg-genchanges --build=binary -O../ros-jazzy-mujoco-ament_0-2026.04.14.10.56_amd64.changes
+dpkg-deb: building package 'ros-jazzy-mujoco-ament' in '../ros-jazzy-mujoco-ament_0-2026.04.21.10.58_amd64.deb'.
+ dpkg-genbuildinfo --build=binary -O../ros-jazzy-mujoco-ament_0-2026.04.21.10.58_amd64.buildinfo
+ dpkg-genchanges --build=binary -O../ros-jazzy-mujoco-ament_0-2026.04.21.10.58_amd64.changes
 dpkg-genchanges: info: binary-only upload (no source code included)
  dpkg-source --after-build .
 dpkg-source: info: using options from package/debian/source/options: --auto-commit
 dpkg-buildpackage: info: binary-only upload (no source included)
 --------------------------------------------------------------------------------
-Build finished at 2026-04-14T10:56:53Z
+Build finished at 2026-04-21T10:59:29Z
 
 Finished
 --------
@@ -1084,16 +1084,16 @@ I: Built successfully
 +------------------------------------------------------------------------------+
 
 
-ros-jazzy-mujoco-ament_0-2026.04.14.10.56_amd64.changes:
+ros-jazzy-mujoco-ament_0-2026.04.21.10.58_amd64.changes:
 --------------------------------------------------------
 
 Format: 1.8
-Date: Tue, 14 Apr 2026 10:56:20 -0000
+Date: Tue, 21 Apr 2026 10:58:59 -0000
 Source: ros-jazzy-mujoco-ament
 Binary: ros-jazzy-mujoco-ament
 Built-For-Profiles: noudeb
 Architecture: amd64
-Version: 0-2026.04.14.10.56
+Version: 0-2026.04.21.10.58
 Distribution: noble
 Urgency: high
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
@@ -1101,18 +1101,18 @@ Changed-By: Qiayuan Liao <liaoqiayuan@gamil.com>
 Description:
  ros-jazzy-mujoco-ament - Model of legged robot
 Changes:
- ros-jazzy-mujoco-ament (0-2026.04.14.10.56) noble; urgency=high
+ ros-jazzy-mujoco-ament (0-2026.04.21.10.58) noble; urgency=high
  .
    * Autogenerated, no changelog for this version found in CHANGELOG.rst.
 Checksums-Sha1:
- 9090beb5017c9bd09a8dc8735ac8e19c1bad718f 9872 ros-jazzy-mujoco-ament_0-2026.04.14.10.56_amd64.buildinfo
- c5d3292cb008aa95c54ac9d5f18fa475b67a3f92 1485200 ros-jazzy-mujoco-ament_0-2026.04.14.10.56_amd64.deb
+ 5ffbd3b8672a72b3ef3685bc72eef5eff2a5641c 9872 ros-jazzy-mujoco-ament_0-2026.04.21.10.58_amd64.buildinfo
+ bf9a8722f4976a8d151ec895cbb8a5733cb0b01c 1485170 ros-jazzy-mujoco-ament_0-2026.04.21.10.58_amd64.deb
 Checksums-Sha256:
- 01a82d7cc3422eab9115063187b9a34f5d5cf63cd9a6f6db1a65ec376266245e 9872 ros-jazzy-mujoco-ament_0-2026.04.14.10.56_amd64.buildinfo
- b626085e9fd84369599402565cbd83eb72ad6eef5509815a04d365360ec7f822 1485200 ros-jazzy-mujoco-ament_0-2026.04.14.10.56_amd64.deb
+ 94ba806dc0de89e40a84743967e1d62ba3fc9c22e387066f81eb0e762a52e7c6 9872 ros-jazzy-mujoco-ament_0-2026.04.21.10.58_amd64.buildinfo
+ b68dbe237e18fcbfc4181771ee38968ee0324cb5cee7facbb8897801de0ae92e 1485170 ros-jazzy-mujoco-ament_0-2026.04.21.10.58_amd64.deb
 Files:
- f84b9b31e73c67d07140eebce4611616 9872 misc optional ros-jazzy-mujoco-ament_0-2026.04.14.10.56_amd64.buildinfo
- 6003c73dd4e2df2e4112e3db188c1e20 1485200 misc optional ros-jazzy-mujoco-ament_0-2026.04.14.10.56_amd64.deb
+ 9796aa488d2f45d3e4eb0416f66e071e 9872 misc optional ros-jazzy-mujoco-ament_0-2026.04.21.10.58_amd64.buildinfo
+ 828e5d9a700e16512008bb650c31efa3 1485170 misc optional ros-jazzy-mujoco-ament_0-2026.04.21.10.58_amd64.deb
 
 +------------------------------------------------------------------------------+
 | Buildinfo                                                                    |
@@ -1122,16 +1122,16 @@ Format: 1.0
 Source: ros-jazzy-mujoco-ament
 Binary: ros-jazzy-mujoco-ament
 Architecture: amd64
-Version: 0-2026.04.14.10.56
+Version: 0-2026.04.21.10.58
 Checksums-Md5:
- 6003c73dd4e2df2e4112e3db188c1e20 1485200 ros-jazzy-mujoco-ament_0-2026.04.14.10.56_amd64.deb
+ 828e5d9a700e16512008bb650c31efa3 1485170 ros-jazzy-mujoco-ament_0-2026.04.21.10.58_amd64.deb
 Checksums-Sha1:
- c5d3292cb008aa95c54ac9d5f18fa475b67a3f92 1485200 ros-jazzy-mujoco-ament_0-2026.04.14.10.56_amd64.deb
+ bf9a8722f4976a8d151ec895cbb8a5733cb0b01c 1485170 ros-jazzy-mujoco-ament_0-2026.04.21.10.58_amd64.deb
 Checksums-Sha256:
- b626085e9fd84369599402565cbd83eb72ad6eef5509815a04d365360ec7f822 1485200 ros-jazzy-mujoco-ament_0-2026.04.14.10.56_amd64.deb
+ b68dbe237e18fcbfc4181771ee38968ee0324cb5cee7facbb8897801de0ae92e 1485170 ros-jazzy-mujoco-ament_0-2026.04.21.10.58_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 14 Apr 2026 10:56:52 +0000
+Build-Date: Tue, 21 Apr 2026 10:59:29 +0000
 Build-Path: /<<BUILDDIR>>package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -1378,7 +1378,7 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1776164180"
+ SOURCE_DATE_EPOCH="1776769139"
 
 
 +------------------------------------------------------------------------------+
@@ -1386,17 +1386,17 @@ Environment:
 +------------------------------------------------------------------------------+
 
 
-ros-jazzy-mujoco-ament_0-2026.04.14.10.56_amd64.deb
+ros-jazzy-mujoco-ament_0-2026.04.21.10.58_amd64.deb
 ---------------------------------------------------
 
  new Debian package, version 2.0.
- size 1485200 bytes: control archive=1469 bytes.
+ size 1485170 bytes: control archive=1469 bytes.
      243 bytes,     9 lines      control
     3020 bytes,    35 lines      md5sums
       39 bytes,     1 lines      shlibs
       75 bytes,     2 lines      triggers
  Package: ros-jazzy-mujoco-ament
- Version: 0-2026.04.14.10.56
+ Version: 0-2026.04.21.10.58
  Architecture: amd64
  Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
  Installed-Size: 4526
@@ -1405,12 +1405,12 @@ ros-jazzy-mujoco-ament_0-2026.04.14.10.56_amd64.deb
  Priority: optional
  Description: Model of legged robot
 
-drwxr-xr-x root/root         0 2026-04-14 10:56 ./
-drwxr-xr-x root/root         0 2026-04-14 10:56 ./opt/
-drwxr-xr-x root/root         0 2026-04-14 10:56 ./opt/ros/
-drwxr-xr-x root/root         0 2026-04-14 10:56 ./opt/ros/jazzy/
-drwxr-xr-x root/root         0 2026-04-14 10:56 ./opt/ros/jazzy/include/
-drwxr-xr-x root/root         0 2026-04-14 10:56 ./opt/ros/jazzy/include/mujoco/
+drwxr-xr-x root/root         0 2026-04-21 10:58 ./
+drwxr-xr-x root/root         0 2026-04-21 10:58 ./opt/
+drwxr-xr-x root/root         0 2026-04-21 10:58 ./opt/ros/
+drwxr-xr-x root/root         0 2026-04-21 10:58 ./opt/ros/jazzy/
+drwxr-xr-x root/root         0 2026-04-21 10:58 ./opt/ros/jazzy/include/
+drwxr-xr-x root/root         0 2026-04-21 10:58 ./opt/ros/jazzy/include/mujoco/
 -rw-r--r-- root/root     25100 2025-01-14 21:22 ./opt/ros/jazzy/include/mujoco/mjdata.h
 -rw-r--r-- root/root      1533 2025-01-14 21:22 ./opt/ros/jazzy/include/mujoco/mjexport.h
 -rw-r--r-- root/root      1336 2025-01-14 21:22 ./opt/ros/jazzy/include/mujoco/mjmacro.h
@@ -1425,42 +1425,42 @@ drwxr-xr-x root/root         0 2026-04-14 10:56 ./opt/ros/jazzy/include/mujoco/
 -rw-r--r-- root/root     24744 2025-01-14 21:22 ./opt/ros/jazzy/include/mujoco/mjvisualize.h
 -rw-r--r-- root/root     49990 2025-01-14 21:22 ./opt/ros/jazzy/include/mujoco/mjxmacro.h
 -rw-r--r-- root/root     72003 2025-01-14 21:22 ./opt/ros/jazzy/include/mujoco/mujoco.h
-drwxr-xr-x root/root         0 2026-04-14 10:56 ./opt/ros/jazzy/lib/
-lrwxrwxrwx root/root         0 2026-04-14 10:56 ./opt/ros/jazzy/lib/libmujoco.so -> libmujoco.so.3.2.7
--rw-r--r-- root/root   4258544 2026-04-14 10:56 ./opt/ros/jazzy/lib/libmujoco.so.3.2.7
-drwxr-xr-x root/root         0 2026-04-14 10:56 ./opt/ros/jazzy/share/
-drwxr-xr-x root/root         0 2026-04-14 10:56 ./opt/ros/jazzy/share/ament_index/
-drwxr-xr-x root/root         0 2026-04-14 10:56 ./opt/ros/jazzy/share/ament_index/resource_index/
-drwxr-xr-x root/root         0 2026-04-14 10:56 ./opt/ros/jazzy/share/ament_index/resource_index/package_run_dependencies/
--rw-r--r-- root/root         0 2026-04-14 10:56 ./opt/ros/jazzy/share/ament_index/resource_index/package_run_dependencies/mujoco_ament
-drwxr-xr-x root/root         0 2026-04-14 10:56 ./opt/ros/jazzy/share/ament_index/resource_index/packages/
--rw-r--r-- root/root         0 2026-04-14 10:56 ./opt/ros/jazzy/share/ament_index/resource_index/packages/mujoco_ament
-drwxr-xr-x root/root         0 2026-04-14 10:56 ./opt/ros/jazzy/share/ament_index/resource_index/parent_prefix_path/
--rw-r--r-- root/root         8 2026-04-14 10:56 ./opt/ros/jazzy/share/ament_index/resource_index/parent_prefix_path/mujoco_ament
-drwxr-xr-x root/root         0 2026-04-14 10:56 ./opt/ros/jazzy/share/mujoco_ament/
-drwxr-xr-x root/root         0 2026-04-14 10:56 ./opt/ros/jazzy/share/mujoco_ament/cmake/
--rw-r--r-- root/root       777 2026-04-14 10:56 ./opt/ros/jazzy/share/mujoco_ament/cmake/ament_cmake_export_include_directories-extras.cmake
--rw-r--r-- root/root      5035 2026-04-14 10:56 ./opt/ros/jazzy/share/mujoco_ament/cmake/ament_cmake_export_libraries-extras.cmake
--rw-r--r-- root/root       432 2026-04-14 10:56 ./opt/ros/jazzy/share/mujoco_ament/cmake/mujoco_amentConfig-version.cmake
--rw-r--r-- root/root      1371 2026-04-14 10:56 ./opt/ros/jazzy/share/mujoco_ament/cmake/mujoco_amentConfig.cmake
-drwxr-xr-x root/root         0 2026-04-14 10:56 ./opt/ros/jazzy/share/mujoco_ament/environment/
--rw-r--r-- root/root        41 2026-04-14 10:56 ./opt/ros/jazzy/share/mujoco_ament/environment/ament_prefix_path.dsv
+drwxr-xr-x root/root         0 2026-04-21 10:58 ./opt/ros/jazzy/lib/
+lrwxrwxrwx root/root         0 2026-04-21 10:58 ./opt/ros/jazzy/lib/libmujoco.so -> libmujoco.so.3.2.7
+-rw-r--r-- root/root   4258544 2026-04-21 10:58 ./opt/ros/jazzy/lib/libmujoco.so.3.2.7
+drwxr-xr-x root/root         0 2026-04-21 10:58 ./opt/ros/jazzy/share/
+drwxr-xr-x root/root         0 2026-04-21 10:58 ./opt/ros/jazzy/share/ament_index/
+drwxr-xr-x root/root         0 2026-04-21 10:58 ./opt/ros/jazzy/share/ament_index/resource_index/
+drwxr-xr-x root/root         0 2026-04-21 10:58 ./opt/ros/jazzy/share/ament_index/resource_index/package_run_dependencies/
+-rw-r--r-- root/root         0 2026-04-21 10:58 ./opt/ros/jazzy/share/ament_index/resource_index/package_run_dependencies/mujoco_ament
+drwxr-xr-x root/root         0 2026-04-21 10:58 ./opt/ros/jazzy/share/ament_index/resource_index/packages/
+-rw-r--r-- root/root         0 2026-04-21 10:58 ./opt/ros/jazzy/share/ament_index/resource_index/packages/mujoco_ament
+drwxr-xr-x root/root         0 2026-04-21 10:58 ./opt/ros/jazzy/share/ament_index/resource_index/parent_prefix_path/
+-rw-r--r-- root/root         8 2026-04-21 10:58 ./opt/ros/jazzy/share/ament_index/resource_index/parent_prefix_path/mujoco_ament
+drwxr-xr-x root/root         0 2026-04-21 10:58 ./opt/ros/jazzy/share/mujoco_ament/
+drwxr-xr-x root/root         0 2026-04-21 10:58 ./opt/ros/jazzy/share/mujoco_ament/cmake/
+-rw-r--r-- root/root       777 2026-04-21 10:58 ./opt/ros/jazzy/share/mujoco_ament/cmake/ament_cmake_export_include_directories-extras.cmake
+-rw-r--r-- root/root      5035 2026-04-21 10:58 ./opt/ros/jazzy/share/mujoco_ament/cmake/ament_cmake_export_libraries-extras.cmake
+-rw-r--r-- root/root       432 2026-04-21 10:58 ./opt/ros/jazzy/share/mujoco_ament/cmake/mujoco_amentConfig-version.cmake
+-rw-r--r-- root/root      1371 2026-04-21 10:58 ./opt/ros/jazzy/share/mujoco_ament/cmake/mujoco_amentConfig.cmake
+drwxr-xr-x root/root         0 2026-04-21 10:58 ./opt/ros/jazzy/share/mujoco_ament/environment/
+-rw-r--r-- root/root        41 2026-04-21 10:58 ./opt/ros/jazzy/share/mujoco_ament/environment/ament_prefix_path.dsv
 -rw-r--r-- root/root       160 2026-02-23 15:57 ./opt/ros/jazzy/share/mujoco_ament/environment/ament_prefix_path.sh
--rw-r--r-- root/root        42 2026-04-14 10:56 ./opt/ros/jazzy/share/mujoco_ament/environment/library_path.dsv
+-rw-r--r-- root/root        42 2026-04-21 10:58 ./opt/ros/jazzy/share/mujoco_ament/environment/library_path.dsv
 -rw-r--r-- root/root       411 2026-01-21 17:23 ./opt/ros/jazzy/share/mujoco_ament/environment/library_path.sh
--rw-r--r-- root/root        41 2026-04-14 10:56 ./opt/ros/jazzy/share/mujoco_ament/environment/path.dsv
+-rw-r--r-- root/root        41 2026-04-21 10:58 ./opt/ros/jazzy/share/mujoco_ament/environment/path.dsv
 -rw-r--r-- root/root       185 2026-02-23 15:57 ./opt/ros/jazzy/share/mujoco_ament/environment/path.sh
--rw-r--r-- root/root      1594 2026-04-14 10:56 ./opt/ros/jazzy/share/mujoco_ament/local_setup.bash
--rw-r--r-- root/root       159 2026-04-14 10:56 ./opt/ros/jazzy/share/mujoco_ament/local_setup.dsv
--rw-r--r-- root/root      5102 2026-04-14 10:56 ./opt/ros/jazzy/share/mujoco_ament/local_setup.sh
--rw-r--r-- root/root      1957 2026-04-14 10:56 ./opt/ros/jazzy/share/mujoco_ament/local_setup.zsh
--rw-r--r-- root/root       168 2026-04-14 10:56 ./opt/ros/jazzy/share/mujoco_ament/package.dsv
--rw-r--r-- root/root       569 2026-04-14 10:55 ./opt/ros/jazzy/share/mujoco_ament/package.xml
-drwxr-xr-x root/root         0 2026-04-14 10:56 ./usr/
-drwxr-xr-x root/root         0 2026-04-14 10:56 ./usr/share/
-drwxr-xr-x root/root         0 2026-04-14 10:56 ./usr/share/doc/
-drwxr-xr-x root/root         0 2026-04-14 10:56 ./usr/share/doc/ros-jazzy-mujoco-ament/
--rw-r--r-- root/root       196 2026-04-14 10:56 ./usr/share/doc/ros-jazzy-mujoco-ament/changelog.Debian.gz
+-rw-r--r-- root/root      1594 2026-04-21 10:58 ./opt/ros/jazzy/share/mujoco_ament/local_setup.bash
+-rw-r--r-- root/root       159 2026-04-21 10:58 ./opt/ros/jazzy/share/mujoco_ament/local_setup.dsv
+-rw-r--r-- root/root      5102 2026-04-21 10:58 ./opt/ros/jazzy/share/mujoco_ament/local_setup.sh
+-rw-r--r-- root/root      1957 2026-04-21 10:58 ./opt/ros/jazzy/share/mujoco_ament/local_setup.zsh
+-rw-r--r-- root/root       168 2026-04-21 10:58 ./opt/ros/jazzy/share/mujoco_ament/package.dsv
+-rw-r--r-- root/root       569 2026-04-21 10:57 ./opt/ros/jazzy/share/mujoco_ament/package.xml
+drwxr-xr-x root/root         0 2026-04-21 10:58 ./usr/
+drwxr-xr-x root/root         0 2026-04-21 10:58 ./usr/share/
+drwxr-xr-x root/root         0 2026-04-21 10:58 ./usr/share/doc/
+drwxr-xr-x root/root         0 2026-04-21 10:58 ./usr/share/doc/ros-jazzy-mujoco-ament/
+-rw-r--r-- root/root       197 2026-04-21 10:58 ./usr/share/doc/ros-jazzy-mujoco-ament/changelog.Debian.gz
 
 
 +------------------------------------------------------------------------------+
@@ -1485,15 +1485,15 @@ Build-Space: 45396
 Build-Time: 6
 Distribution: noble
 Host Architecture: amd64
-Install-Time: 15
-Job: /home/runner/work/simulation_buildfarm/simulation_buildfarm/src/ros-jazzy-mujoco-ament_0-2026.04.14.10.56.dsc
+Install-Time: 13
+Job: /home/runner/work/simulation_buildfarm/simulation_buildfarm/src/ros-jazzy-mujoco-ament_0-2026.04.21.10.58.dsc
 Machine Architecture: amd64
 Package: ros-jazzy-mujoco-ament
-Package-Time: 32
-Source-Version: 0-2026.04.14.10.56
+Package-Time: 29
+Source-Version: 0-2026.04.21.10.58
 Space: 45396
 Status: successful
-Version: 0-2026.04.14.10.56
+Version: 0-2026.04.21.10.58
 --------------------------------------------------------------------------------
-Finished at 2026-04-14T10:56:53Z
-Build needed 00:00:32, 45396k disk space
+Finished at 2026-04-21T10:59:29Z
+Build needed 00:00:29, 45396k disk space
