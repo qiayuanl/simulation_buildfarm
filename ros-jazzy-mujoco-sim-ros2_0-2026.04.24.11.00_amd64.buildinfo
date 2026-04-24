@@ -2,19 +2,19 @@ Format: 1.0
 Source: ros-jazzy-mujoco-sim-ros2
 Binary: ros-jazzy-mujoco-sim-ros2 ros-jazzy-mujoco-sim-ros2-dbgsym
 Architecture: amd64
-Version: 0-2026.04.22.10.58
+Version: 0-2026.04.24.11.00
 Checksums-Md5:
- a988e498fd70fd43db5eba7904576405 1817102 ros-jazzy-mujoco-sim-ros2-dbgsym_0-2026.04.22.10.58_amd64.ddeb
- 08e97c044cd70a58be531476d13e3ec8 194764 ros-jazzy-mujoco-sim-ros2_0-2026.04.22.10.58_amd64.deb
+ d1b1ae165c94b1ee4d535790180156a2 1817004 ros-jazzy-mujoco-sim-ros2-dbgsym_0-2026.04.24.11.00_amd64.ddeb
+ c2b3472f302378faaf20e2632f0d86f4 194696 ros-jazzy-mujoco-sim-ros2_0-2026.04.24.11.00_amd64.deb
 Checksums-Sha1:
- 315e4d3f997f559779f46929f76be65f3eb0933d 1817102 ros-jazzy-mujoco-sim-ros2-dbgsym_0-2026.04.22.10.58_amd64.ddeb
- a17798952908b9cbe1d0fa5d2e110334ce8527a4 194764 ros-jazzy-mujoco-sim-ros2_0-2026.04.22.10.58_amd64.deb
+ 32b7757cd11705b1a3f276db590c9ca9e7cc6243 1817004 ros-jazzy-mujoco-sim-ros2-dbgsym_0-2026.04.24.11.00_amd64.ddeb
+ c92109f2c90617a64f3fb7198712c9bd9d439168 194696 ros-jazzy-mujoco-sim-ros2_0-2026.04.24.11.00_amd64.deb
 Checksums-Sha256:
- 13626fd699e035c343b1a7c7b6f5eb5e97e5d13d6f32d8db17f2a754f7d66a84 1817102 ros-jazzy-mujoco-sim-ros2-dbgsym_0-2026.04.22.10.58_amd64.ddeb
- dda796bc28f34783929e3ae1033bad187b7ab0045dad98b950c43b9242b828ae 194764 ros-jazzy-mujoco-sim-ros2_0-2026.04.22.10.58_amd64.deb
+ 420f6e3e3e1655193d067c74c54d192dfd65d614da2a33cda5871682c6f52c8a 1817004 ros-jazzy-mujoco-sim-ros2-dbgsym_0-2026.04.24.11.00_amd64.ddeb
+ 69a4a24e7d6b6c05ceb3bd6a65df843627fe8059cf5b0d12ae1fa6124307f32b 194696 ros-jazzy-mujoco-sim-ros2_0-2026.04.24.11.00_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 22 Apr 2026 11:00:10 +0000
+Build-Date: Fri, 24 Apr 2026 11:02:25 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -443,7 +443,7 @@ Installed-Build-Depends:
  ros-jazzy-libstatistics-collector (= 1.7.4-1noble.20260412.041007),
  ros-jazzy-libyaml-vendor (= 1.6.3-2noble.20260225.235345),
  ros-jazzy-lifecycle-msgs (= 2.0.3-1noble.20260412.032912),
- ros-jazzy-mujoco-ament (= 0-2026.04.22.10.57),
+ ros-jazzy-mujoco-ament (= 0-2026.04.24.10.58),
  ros-jazzy-osrf-pycommon (= 2.1.7-1noble.20260225.055811),
  ros-jazzy-pal-statistics (= 2.7.0-1noble.20260412.051247),
  ros-jazzy-pal-statistics-msgs (= 2.7.0-1noble.20260412.034107),
@@ -552,4 +552,4 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1776855536"
+ SOURCE_DATE_EPOCH="1777028456"
