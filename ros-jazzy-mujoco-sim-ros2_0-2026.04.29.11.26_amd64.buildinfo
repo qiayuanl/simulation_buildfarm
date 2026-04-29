@@ -1,20 +1,20 @@
 Format: 1.0
-Source: ros-jazzy-mujoco-ros2-control
-Binary: ros-jazzy-mujoco-ros2-control ros-jazzy-mujoco-ros2-control-dbgsym
+Source: ros-jazzy-mujoco-sim-ros2
+Binary: ros-jazzy-mujoco-sim-ros2 ros-jazzy-mujoco-sim-ros2-dbgsym
 Architecture: amd64
-Version: 0-2026.04.24.11.02
+Version: 0-2026.04.29.11.26
 Checksums-Md5:
- 89e8e1abb4df7c2fc18f2c0a88ac438b 3058398 ros-jazzy-mujoco-ros2-control-dbgsym_0-2026.04.24.11.02_amd64.ddeb
- 5ef9ce85709cab491f5472b16cf8480d 162960 ros-jazzy-mujoco-ros2-control_0-2026.04.24.11.02_amd64.deb
+ 57830dac2d6c2c9f9c7e401df7399f59 1817372 ros-jazzy-mujoco-sim-ros2-dbgsym_0-2026.04.29.11.26_amd64.ddeb
+ f5ea6d6e34c945c2a335e8fc12463b37 194716 ros-jazzy-mujoco-sim-ros2_0-2026.04.29.11.26_amd64.deb
 Checksums-Sha1:
- 283f639e0bd0e017fe5dfc2f13759ede87580ec1 3058398 ros-jazzy-mujoco-ros2-control-dbgsym_0-2026.04.24.11.02_amd64.ddeb
- 64853cecfd6edcfe85b6fc026e2c342d63467e06 162960 ros-jazzy-mujoco-ros2-control_0-2026.04.24.11.02_amd64.deb
+ 8383f977734fb39258d941f63c1c03dab55c9e08 1817372 ros-jazzy-mujoco-sim-ros2-dbgsym_0-2026.04.29.11.26_amd64.ddeb
+ b51610131785682228bf0d8df4dad396679c17ce 194716 ros-jazzy-mujoco-sim-ros2_0-2026.04.29.11.26_amd64.deb
 Checksums-Sha256:
- 46d4471f5983fcecab8f9efdb0120137a387ea2389395cfa4e210b1df9c8c885 3058398 ros-jazzy-mujoco-ros2-control-dbgsym_0-2026.04.24.11.02_amd64.ddeb
- 22ce3be981ada6c1653164953d884f76ee3e1067e7ec0ff61d6731fd63758f87 162960 ros-jazzy-mujoco-ros2-control_0-2026.04.24.11.02_amd64.deb
+ 1fb59c4d83d411d9eb6b757b5543b0ffac47acd3082195b5925c6e5336f8cab3 1817372 ros-jazzy-mujoco-sim-ros2-dbgsym_0-2026.04.29.11.26_amd64.ddeb
+ d001469b3eacc32b3c8ea2da6815e41eca9088f0acd5ead8af05fc0ff1b69b0e 194716 ros-jazzy-mujoco-sim-ros2_0-2026.04.29.11.26_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Fri, 24 Apr 2026 11:03:59 +0000
+Build-Date: Wed, 29 Apr 2026 11:27:38 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -35,8 +35,6 @@ Installed-Build-Depends:
  bzip2 (= 1.0.8-5.1build0.1),
  ca-certificates (= 20240203),
  catch2 (= 3.4.0-1build1),
- clang-format (= 1:18.0-59~exp2),
- clang-format-18 (= 1:18.1.3-1ubuntu1),
  cmake (= 3.28.3-1build7),
  cmake-data (= 3.28.3-1build7),
  coreutils (= 9.4-3ubuntu6.2),
@@ -105,7 +103,6 @@ Installed-Build-Depends:
  libcap-ng0 (= 0.8.4-2build2),
  libcap2 (= 1:2.66-5ubuntu2.4),
  libcc1-0 (= 14.2.0-4ubuntu2~24.04.1),
- libclang-cpp18 (= 1:18.1.3-1ubuntu1),
  libcom-err2 (= 1.47.0-2.4~exp1ubuntu4.1),
  libconsole-bridge-dev (= 1.0.1+dfsg2-3build1),
  libconsole-bridge1.0 (= 1.0.1+dfsg2-3build1),
@@ -186,7 +183,6 @@ Installed-Build-Depends:
  libkrb5support0 (= 1.20.1-6ubuntu2.6),
  liblapack3 (= 3.12.0-3build1.1),
  libldap2 (= 2.6.10+dfsg-0ubuntu0.24.04.1),
- libllvm18 (= 1:18.1.3-1ubuntu1),
  libllvm20 (= 1:20.1.2-0ubuntu1~24.04.2),
  liblsan0 (= 14.2.0-4ubuntu2~24.04.1),
  liblttng-ctl0t64 (= 2.13.11-2.1build4),
@@ -291,6 +287,7 @@ Installed-Build-Depends:
  libxdmcp6 (= 1:1.1.3-0ubuntu6),
  libxext6 (= 2:1.3.4-1build2),
  libxml2 (= 2.9.14+dfsg-1.3ubuntu3.7),
+ libxml2-utils (= 2.9.14+dfsg-1.3ubuntu3.7),
  libxshmfence1 (= 1.3-1build5),
  libxxf86vm1 (= 1:1.1.4-1build4),
  libyaml-0-2 (= 0.2.5-1build1),
@@ -368,9 +365,7 @@ Installed-Build-Depends:
  rake (= 13.0.6-3),
  readline-common (= 8.2-4build1),
  ros-jazzy-action-msgs (= 2.0.3-1noble.20260412.032342),
- ros-jazzy-ament-clang-format (= 0.17.5-1noble.20260410.080356),
  ros-jazzy-ament-cmake (= 2.5.6-2noble.20260225.222913),
- ros-jazzy-ament-cmake-clang-format (= 0.17.5-1noble.20260410.113618),
  ros-jazzy-ament-cmake-copyright (= 0.17.5-1noble.20260410.113746),
  ros-jazzy-ament-cmake-core (= 2.5.6-2noble.20260224.191131),
  ros-jazzy-ament-cmake-cppcheck (= 0.17.5-1noble.20260410.113607),
@@ -397,6 +392,7 @@ Installed-Build-Depends:
  ros-jazzy-ament-cmake-test (= 2.5.6-2noble.20260225.143205),
  ros-jazzy-ament-cmake-uncrustify (= 0.17.5-1noble.20260410.113615),
  ros-jazzy-ament-cmake-version (= 2.5.6-2noble.20260225.042330),
+ ros-jazzy-ament-cmake-xmllint (= 0.17.5-1noble.20260410.113914),
  ros-jazzy-ament-copyright (= 0.17.5-1noble.20260410.105859),
  ros-jazzy-ament-cppcheck (= 0.17.5-1noble.20260410.080408),
  ros-jazzy-ament-cpplint (= 0.17.5-1noble.20260410.080348),
@@ -406,9 +402,11 @@ Installed-Build-Depends:
  ros-jazzy-ament-lint (= 0.17.5-1noble.20260410.080358),
  ros-jazzy-ament-lint-auto (= 0.17.5-1noble.20260410.080333),
  ros-jazzy-ament-lint-cmake (= 0.17.5-1noble.20260410.080405),
+ ros-jazzy-ament-lint-common (= 0.17.5-1noble.20260410.114154),
  ros-jazzy-ament-package (= 0.16.5-1noble.20260121.174946),
  ros-jazzy-ament-pep257 (= 0.17.5-1noble.20260410.113520),
  ros-jazzy-ament-uncrustify (= 0.17.5-1noble.20260410.080359),
+ ros-jazzy-ament-xmllint (= 0.17.5-1noble.20260410.113521),
  ros-jazzy-backward-ros (= 1.0.8-1noble.20260225.051215),
  ros-jazzy-builtin-interfaces (= 2.0.3-1noble.20260412.031450),
  ros-jazzy-class-loader (= 2.7.0-3noble.20260226.003328),
@@ -445,9 +443,7 @@ Installed-Build-Depends:
  ros-jazzy-libstatistics-collector (= 1.7.4-1noble.20260412.041007),
  ros-jazzy-libyaml-vendor (= 1.6.3-2noble.20260225.235345),
  ros-jazzy-lifecycle-msgs (= 2.0.3-1noble.20260412.032912),
- ros-jazzy-mujoco-ament (= 0-2026.04.24.10.58),
- ros-jazzy-mujoco-sim-ros2 (= 0-2026.04.24.11.00),
- ros-jazzy-nav-msgs (= 5.3.7-1noble.20260412.034710),
+ ros-jazzy-mujoco-ament (= 0-2026.04.29.11.23),
  ros-jazzy-osrf-pycommon (= 2.1.7-1noble.20260225.055811),
  ros-jazzy-pal-statistics (= 2.7.0-1noble.20260412.051247),
  ros-jazzy-pal-statistics-msgs (= 2.7.0-1noble.20260412.034107),
@@ -556,4 +552,4 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1777028551"
+ SOURCE_DATE_EPOCH="1777461970"

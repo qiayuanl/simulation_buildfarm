@@ -2,19 +2,19 @@ Format: 1.0
 Source: ros-jazzy-mujoco-ros2-control-demos
 Binary: ros-jazzy-mujoco-ros2-control-demos ros-jazzy-mujoco-ros2-control-demos-dbgsym
 Architecture: amd64
-Version: 0-2026.04.24.10.59
+Version: 0-2026.04.29.11.24
 Checksums-Md5:
- 1344c21f237a375cbe294207315f0a85 4629004 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.04.24.10.59_amd64.ddeb
- f93bab499abb4171b8e323643a2b6361 143046 ros-jazzy-mujoco-ros2-control-demos_0-2026.04.24.10.59_amd64.deb
+ 8f68a946a863de84083a48a7571e7e54 4639872 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.04.29.11.24_amd64.ddeb
+ 9a7be601b747cad927572c6c8f552de7 143008 ros-jazzy-mujoco-ros2-control-demos_0-2026.04.29.11.24_amd64.deb
 Checksums-Sha1:
- 4507f6e0a1c15b1463f39eb512ac6ba91b1acd08 4629004 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.04.24.10.59_amd64.ddeb
- 35759d167d547579f26302c6a57a2072c64e03a7 143046 ros-jazzy-mujoco-ros2-control-demos_0-2026.04.24.10.59_amd64.deb
+ f823bb9fc5e89d8a8a380731198dd04f507c4de9 4639872 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.04.29.11.24_amd64.ddeb
+ fbaba834b5cb2c106587640211e7948fe5b7b313 143008 ros-jazzy-mujoco-ros2-control-demos_0-2026.04.29.11.24_amd64.deb
 Checksums-Sha256:
- aa1a3432bafc6fd730fbd1c271dd4839b1110609e70370c66d41b46a1bd05e00 4629004 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.04.24.10.59_amd64.ddeb
- 6ae85f12ed8e72e24d2f75ff3fb04647a6ac5114d5a0accaf64d4073e3dc8b17 143046 ros-jazzy-mujoco-ros2-control-demos_0-2026.04.24.10.59_amd64.deb
+ 35ec51dd0a68b82d780881fb743ab67829b4ffadbac26481ce1ce1a937b15a3f 4639872 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.04.29.11.24_amd64.ddeb
+ 273cff729ba6c3b8a54d180bb60f699d55c9706f1852c022b32e1d7bda3457ad 143008 ros-jazzy-mujoco-ros2-control-demos_0-2026.04.29.11.24_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Fri, 24 Apr 2026 11:00:51 +0000
+Build-Date: Wed, 29 Apr 2026 11:26:05 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -495,4 +495,4 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1777028365"
+ SOURCE_DATE_EPOCH="1777461874"
