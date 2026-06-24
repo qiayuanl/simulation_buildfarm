@@ -2,19 +2,19 @@ Format: 1.0
 Source: ros-jazzy-mujoco-ros2-control-demos
 Binary: ros-jazzy-mujoco-ros2-control-demos ros-jazzy-mujoco-ros2-control-demos-dbgsym
 Architecture: amd64
-Version: 0-2026.06.20.11.50
+Version: 0-2026.06.24.12.14
 Checksums-Md5:
- a03776bc99a04c7cc90d0be40cb93a6e 4632726 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.06.20.11.50_amd64.ddeb
- c38d309d603561284793f85e36c5c8a1 142984 ros-jazzy-mujoco-ros2-control-demos_0-2026.06.20.11.50_amd64.deb
+ 7de345a8082af556f8b74a04fbe4a024 4616438 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.06.24.12.14_amd64.ddeb
+ 7da43f671dd00eb0682d861e4c5e50d4 143024 ros-jazzy-mujoco-ros2-control-demos_0-2026.06.24.12.14_amd64.deb
 Checksums-Sha1:
- 30b8d14d256893521fb6a87bc1df059c63ce720c 4632726 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.06.20.11.50_amd64.ddeb
- 53fa625d845e7bd02517740130a1fabf156b452d 142984 ros-jazzy-mujoco-ros2-control-demos_0-2026.06.20.11.50_amd64.deb
+ 9ad29c12a270bc6018c0c2f6e09789d4faa60fcc 4616438 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.06.24.12.14_amd64.ddeb
+ 2f30cd6163aef9042aba08ae221eb853b0bc8555 143024 ros-jazzy-mujoco-ros2-control-demos_0-2026.06.24.12.14_amd64.deb
 Checksums-Sha256:
- df79bc4003ad8f26f681876931d3448910279b61f546663a8a93838087b7842c 4632726 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.06.20.11.50_amd64.ddeb
- 61e810203f0756809dc3649c57229b298111587d813c78f5cd837f2cbfededac 142984 ros-jazzy-mujoco-ros2-control-demos_0-2026.06.20.11.50_amd64.deb
+ 4359c88314c97759a4f28f24c10ed592b086f304b3a9e5da6a60b5870a6c6661 4616438 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.06.24.12.14_amd64.ddeb
+ 6bd7cee698260daec566dc6a9a0e1e39a8b29e6fbfb9190d2dba6158e6def5f8 143024 ros-jazzy-mujoco-ros2-control-demos_0-2026.06.24.12.14_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 20 Jun 2026 11:52:05 +0000
+Build-Date: Wed, 24 Jun 2026 12:15:41 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -239,7 +239,7 @@ Installed-Build-Depends:
  liburdfdom-headers-dev (= 1.0.5-3),
  libuuid1 (= 2.39.3-9ubuntu6.5),
  libuv1t64 (= 1.48.0-1.1build1),
- libxml2 (= 2.9.14+dfsg-1.3ubuntu3.7),
+ libxml2 (= 2.9.14+dfsg-1.3ubuntu3.8),
  libyaml-0-2 (= 0.2.5-1build1),
  libyaml-dev (= 0.2.5-1build1),
  libzstd-dev (= 1.5.5+dfsg2-2build1.1),
@@ -495,4 +495,4 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1781956245"
+ SOURCE_DATE_EPOCH="1782303257"
