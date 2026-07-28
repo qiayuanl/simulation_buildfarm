@@ -2,19 +2,19 @@ Format: 1.0
 Source: ros-jazzy-mujoco-ros2-control-demos
 Binary: ros-jazzy-mujoco-ros2-control-demos ros-jazzy-mujoco-ros2-control-demos-dbgsym
 Architecture: amd64
-Version: 0-2026.06.24.12.14
+Version: 0-2026.07.28.11.50
 Checksums-Md5:
- 7de345a8082af556f8b74a04fbe4a024 4616438 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.06.24.12.14_amd64.ddeb
- 7da43f671dd00eb0682d861e4c5e50d4 143024 ros-jazzy-mujoco-ros2-control-demos_0-2026.06.24.12.14_amd64.deb
+ 5e83aec8dd1970f79ab4bdfb96c19df8 4637172 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.07.28.11.50_amd64.ddeb
+ 5e99522971e4a8ed1c1b22d97c2e4178 143000 ros-jazzy-mujoco-ros2-control-demos_0-2026.07.28.11.50_amd64.deb
 Checksums-Sha1:
- 9ad29c12a270bc6018c0c2f6e09789d4faa60fcc 4616438 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.06.24.12.14_amd64.ddeb
- 2f30cd6163aef9042aba08ae221eb853b0bc8555 143024 ros-jazzy-mujoco-ros2-control-demos_0-2026.06.24.12.14_amd64.deb
+ b93b8e4ab3159b88837654a9ff41df2f1a0f746a 4637172 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.07.28.11.50_amd64.ddeb
+ df95ef93c4c34eb63c24318365ec1cc2da4dd145 143000 ros-jazzy-mujoco-ros2-control-demos_0-2026.07.28.11.50_amd64.deb
 Checksums-Sha256:
- 4359c88314c97759a4f28f24c10ed592b086f304b3a9e5da6a60b5870a6c6661 4616438 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.06.24.12.14_amd64.ddeb
- 6bd7cee698260daec566dc6a9a0e1e39a8b29e6fbfb9190d2dba6158e6def5f8 143024 ros-jazzy-mujoco-ros2-control-demos_0-2026.06.24.12.14_amd64.deb
+ 6ce6274ae0100f8016c5b849f7d0d5de1c2b25f6b5f9182c68dad4d1b71a5519 4637172 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.07.28.11.50_amd64.ddeb
+ 7933ce44cae8ac1ecf575d2a7fb62d67b2f56799dee08d54094d45d753142235 143000 ros-jazzy-mujoco-ros2-control-demos_0-2026.07.28.11.50_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 24 Jun 2026 12:15:41 +0000
+Build-Date: Tue, 28 Jul 2026 11:51:53 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -75,13 +75,13 @@ Installed-Build-Depends:
  googletest (= 1.14.0-1),
  grep (= 3.11-4build1),
  groff-base (= 1.23.0-3build2),
- gzip (= 1.12-1ubuntu3.1),
+ gzip (= 1.12-1ubuntu3.2),
  hostname (= 3.23+nmu2ubuntu2),
  init-system-helpers (= 1.66ubuntu1),
  intltool-debian (= 0.35.0+20060710.6),
  libacl1 (= 2.3.2-1build1.1),
  libarchive-zip-perl (= 1.68-1),
- libarchive13t64 (= 3.7.2-2ubuntu0.7),
+ libarchive13t64 (= 3.7.2-2ubuntu0.8),
  libasan8 (= 14.2.0-4ubuntu2~24.04.1),
  libatomic1 (= 14.2.0-4ubuntu2~24.04.1),
  libattr1 (= 1:2.5.2-1build1.1),
@@ -95,10 +95,10 @@ Installed-Build-Depends:
  libbrotli1 (= 1.1.0-2build2),
  libbsd0 (= 0.12.1-1build1.1),
  libbz2-1.0 (= 1.0.8-5.1build0.1),
- libc-bin (= 2.39-0ubuntu8.7),
- libc-dev-bin (= 2.39-0ubuntu8.7),
- libc6 (= 2.39-0ubuntu8.7),
- libc6-dev (= 2.39-0ubuntu8.7),
+ libc-bin (= 2.39-0ubuntu8.8),
+ libc-dev-bin (= 2.39-0ubuntu8.8),
+ libc6 (= 2.39-0ubuntu8.8),
+ libc6-dev (= 2.39-0ubuntu8.8),
  libcap-dev (= 1:2.66-5ubuntu2.4),
  libcap-ng0 (= 0.8.4-2build2),
  libcap2 (= 1:2.66-5ubuntu2.4),
@@ -111,7 +111,7 @@ Installed-Build-Depends:
  libcrypt1 (= 1:4.4.36-4build1),
  libctf-nobfd0 (= 2.42-4ubuntu2.10),
  libctf0 (= 2.42-4ubuntu2.10),
- libcurl4t64 (= 8.5.0-2ubuntu10.9),
+ libcurl4t64 (= 8.5.0-2ubuntu10.11),
  libdb5.3t64 (= 5.3.28+dfsg2-7),
  libdebconfclient0 (= 0.271ubuntu3),
  libdebhelper-perl (= 13.14.1ubuntu5),
@@ -140,7 +140,7 @@ Installed-Build-Depends:
  libgomp1 (= 14.2.0-4ubuntu2~24.04.1),
  libgpg-error0 (= 1.47-3build2.1),
  libgprofng0 (= 2.42-4ubuntu2.10),
- libgssapi-krb5-2 (= 1.20.1-6ubuntu2.6),
+ libgssapi-krb5-2 (= 1.20.1-6ubuntu2.7),
  libgtest-dev (= 1.14.0-1),
  libhogweed6t64 (= 3.9.1-2.2build1.1),
  libhwasan0 (= 14.2.0-4ubuntu2~24.04.1),
@@ -153,11 +153,11 @@ Installed-Build-Depends:
  libjs-sphinxdoc (= 7.2.6-6),
  libjs-underscore (= 1.13.4~dfsg+~1.11.4-3),
  libjsoncpp25 (= 1.9.5-6build1),
- libk5crypto3 (= 1.20.1-6ubuntu2.6),
+ libk5crypto3 (= 1.20.1-6ubuntu2.7),
  libkeyutils1 (= 1.6.3-3build1),
  libkmod2 (= 31+20240202-2ubuntu7.2),
- libkrb5-3 (= 1.20.1-6ubuntu2.6),
- libkrb5support0 (= 1.20.1-6ubuntu2.6),
+ libkrb5-3 (= 1.20.1-6ubuntu2.7),
+ libkrb5support0 (= 1.20.1-6ubuntu2.7),
  liblapack3 (= 3.12.0-3build1.1),
  libldap2 (= 2.6.10+dfsg-0ubuntu0.24.04.1),
  libllvm18 (= 1:18.1.3-1ubuntu1),
@@ -177,20 +177,20 @@ Installed-Build-Depends:
  libmount1 (= 2.39.3-9ubuntu6.5),
  libmpc3 (= 1.3.1-1build1.1),
  libmpfr6 (= 4.2.1-1build1.1),
- libncurses6 (= 6.4+20240113-1ubuntu2),
- libncursesw6 (= 6.4+20240113-1ubuntu2),
+ libncurses6 (= 6.4+20240113-1ubuntu2.1),
+ libncursesw6 (= 6.4+20240113-1ubuntu2.1),
  libnettle8t64 (= 3.9.1-2.2build1.1),
- libnghttp2-14 (= 1.59.0-1ubuntu0.3),
+ libnghttp2-14 (= 1.59.0-1ubuntu0.4),
  libnuma1 (= 2.0.18-1ubuntu0.24.04.1),
  liborocos-kdl-dev (= 1.5.1-4build1),
  liborocos-kdl1.5 (= 1.5.1-4build1),
  libp11-kit0 (= 0.25.3-4ubuntu2.1),
- libpam-modules (= 1.5.3-5ubuntu5.5),
- libpam-modules-bin (= 1.5.3-5ubuntu5.5),
- libpam-runtime (= 1.5.3-5ubuntu5.5),
- libpam0g (= 1.5.3-5ubuntu5.5),
+ libpam-modules (= 1.5.3-5ubuntu5.6),
+ libpam-modules-bin (= 1.5.3-5ubuntu5.6),
+ libpam-runtime (= 1.5.3-5ubuntu5.6),
+ libpam0g (= 1.5.3-5ubuntu5.6),
  libpcre2-8-0 (= 10.42-4ubuntu2.1),
- libperl5.38t64 (= 5.38.2-3.2ubuntu0.2),
+ libperl5.38t64 (= 5.38.2-3.2ubuntu0.3),
  libpipeline1 (= 1.5.7-2),
  libpkgconf3 (= 1.8.1-2build1),
  libpopt0 (= 1.19+dfsg-1build1),
@@ -198,16 +198,16 @@ Installed-Build-Depends:
  libpsl5t64 (= 0.21.2-1.1build1),
  libpython3-dev (= 3.12.3-0ubuntu2.1),
  libpython3-stdlib (= 3.12.3-0ubuntu2.1),
- libpython3.12-dev (= 3.12.3-1ubuntu0.13),
- libpython3.12-minimal (= 3.12.3-1ubuntu0.13),
- libpython3.12-stdlib (= 3.12.3-1ubuntu0.13),
- libpython3.12t64 (= 3.12.3-1ubuntu0.13),
+ libpython3.12-dev (= 3.12.3-1ubuntu0.15),
+ libpython3.12-minimal (= 3.12.3-1ubuntu0.15),
+ libpython3.12-stdlib (= 3.12.3-1ubuntu0.15),
+ libpython3.12t64 (= 3.12.3-1ubuntu0.15),
  libquadmath0 (= 14.2.0-4ubuntu2~24.04.1),
  libreadline8t64 (= 8.2-4build1),
  librhash0 (= 1.4.3-3build1),
  librtmp1 (= 2.4+20151223.gitfa8646d.1-2build7),
  libruby (= 1:3.2~ubuntu1),
- libruby3.2 (= 3.2.3-1ubuntu0.24.04.7),
+ libruby3.2 (= 3.2.3-1ubuntu0.24.04.8),
  libsasl2-2 (= 2.1.28+dfsg1-5ubuntu3.1),
  libsasl2-modules-db (= 2.1.28+dfsg1-5ubuntu3.1),
  libseccomp2 (= 2.5.5-1ubuntu3.1),
@@ -216,7 +216,7 @@ Installed-Build-Depends:
  libsmartcols1 (= 2.39.3-9ubuntu6.5),
  libspdlog-dev (= 1:1.12.0+ds-2build1),
  libspdlog1.12 (= 1:1.12.0+ds-2build1),
- libsqlite3-0 (= 3.45.1-1ubuntu2.5),
+ libsqlite3-0 (= 3.45.1-1ubuntu2.7),
  libssh-4 (= 0.10.6-2ubuntu0.4),
  libssl-dev (= 3.0.13-0ubuntu3.11),
  libssl3t64 (= 3.0.13-0ubuntu3.11),
@@ -225,7 +225,7 @@ Installed-Build-Depends:
  libsub-override-perl (= 0.10-1),
  libsystemd0 (= 255.4-1ubuntu8.16),
  libtasn1-6 (= 4.19.0-3ubuntu0.24.04.2),
- libtinfo6 (= 6.4+20240113-1ubuntu2),
+ libtinfo6 (= 6.4+20240113-1ubuntu2.1),
  libtinyxml2-10 (= 10.0.0+dfsg-2),
  libtinyxml2-dev (= 10.0.0+dfsg-2),
  libtool (= 2.4.7-7build1),
@@ -244,7 +244,7 @@ Installed-Build-Depends:
  libyaml-dev (= 0.2.5-1build1),
  libzstd-dev (= 1.5.5+dfsg2-2build1.1),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-124.124),
+ linux-libc-dev (= 6.8.0-136.136),
  login (= 1:4.13+dfsg1-4ubuntu3.2),
  lto-disabled-list (= 47),
  lttng-tools (= 2.13.11-2.1build4),
@@ -253,14 +253,14 @@ Installed-Build-Depends:
  man-db (= 2.12.0-4build2),
  mawk (= 1.3.4.20240123-1build1),
  media-types (= 10.1.0),
- ncurses-base (= 6.4+20240113-1ubuntu2),
- ncurses-bin (= 6.4+20240113-1ubuntu2),
+ ncurses-base (= 6.4+20240113-1ubuntu2.1),
+ ncurses-bin (= 6.4+20240113-1ubuntu2.1),
  netbase (= 6.4),
  openssl (= 3.0.13-0ubuntu3.11),
  patch (= 2.7.6-7build3),
- perl (= 5.38.2-3.2ubuntu0.2),
- perl-base (= 5.38.2-3.2ubuntu0.2),
- perl-modules-5.38 (= 5.38.2-3.2ubuntu0.2),
+ perl (= 5.38.2-3.2ubuntu0.3),
+ perl-base (= 5.38.2-3.2ubuntu0.3),
+ perl-modules-5.38 (= 5.38.2-3.2ubuntu0.3),
  pkg-config (= 1.8.1-2build1),
  pkgconf (= 1.8.1-2build1),
  pkgconf-bin (= 1.8.1-2build1),
@@ -306,9 +306,9 @@ Installed-Build-Depends:
  python3-typeguard (= 4.1.5-1),
  python3-yaml (= 6.0.1-2build2),
  python3-zipp (= 1.0.0-6ubuntu0.1),
- python3.12 (= 3.12.3-1ubuntu0.13),
- python3.12-dev (= 3.12.3-1ubuntu0.13),
- python3.12-minimal (= 3.12.3-1ubuntu0.13),
+ python3.12 (= 3.12.3-1ubuntu0.15),
+ python3.12-dev (= 3.12.3-1ubuntu0.15),
+ python3.12-minimal (= 3.12.3-1ubuntu0.15),
  rake (= 13.0.6-3),
  readline-common (= 8.2-4build1),
  ros-jazzy-action-msgs (= 2.0.4-1noble.20260612.054718),
@@ -474,14 +474,14 @@ Installed-Build-Depends:
  ruby-sdbm (= 1.0.0-5build4),
  ruby-webrick (= 1.8.1-1ubuntu0.2),
  ruby-xmlrpc (= 0.3.2-2),
- ruby3.2 (= 3.2.3-1ubuntu0.24.04.7),
+ ruby3.2 (= 3.2.3-1ubuntu0.24.04.8),
  rubygems-integration (= 1.18),
  sed (= 4.9-2ubuntu0.24.04.1),
  sensible-utils (= 0.0.22),
  sgml-base (= 1.31),
  sysvinit-utils (= 3.08-6ubuntu3),
- tar (= 1.35+dfsg-3build1),
- tzdata (= 2026a-0ubuntu0.24.04.1),
+ tar (= 1.35+dfsg-3ubuntu0.4),
+ tzdata (= 2026b-0ubuntu0.24.04.1),
  uncrustify (= 0.78.1+dfsg1-1),
  util-linux (= 2.39.3-9ubuntu6.5),
  uuid-dev (= 2.39.3-9ubuntu6.5),
@@ -495,4 +495,4 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1782303257"
+ SOURCE_DATE_EPOCH="1785239428"
