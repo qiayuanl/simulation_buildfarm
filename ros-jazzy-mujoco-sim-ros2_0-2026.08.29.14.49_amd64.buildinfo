@@ -2,19 +2,19 @@ Format: 1.0
 Source: ros-jazzy-mujoco-sim-ros2
 Binary: ros-jazzy-mujoco-sim-ros2 ros-jazzy-mujoco-sim-ros2-dbgsym
 Architecture: amd64
-Version: 0-2026.08.22.10.14
+Version: 0-2026.08.29.14.49
 Checksums-Md5:
- d9a27875eb1fc2c562e0da58dd66f66f 1818830 ros-jazzy-mujoco-sim-ros2-dbgsym_0-2026.08.22.10.14_amd64.ddeb
- 4b8d9b2616c557a7441960fcb476abb1 194412 ros-jazzy-mujoco-sim-ros2_0-2026.08.22.10.14_amd64.deb
+ 0cc4fb0a3f8e2d4b8103fc249690e8ae 1818428 ros-jazzy-mujoco-sim-ros2-dbgsym_0-2026.08.29.14.49_amd64.ddeb
+ ec55fc76c4abdd90f593a6de33f8bff9 194754 ros-jazzy-mujoco-sim-ros2_0-2026.08.29.14.49_amd64.deb
 Checksums-Sha1:
- 05de9d63239f6354e743fa3b3a452862bfee70ab 1818830 ros-jazzy-mujoco-sim-ros2-dbgsym_0-2026.08.22.10.14_amd64.ddeb
- 517ad0313d1ac797c2d03388039b709b1e2cde44 194412 ros-jazzy-mujoco-sim-ros2_0-2026.08.22.10.14_amd64.deb
+ 91c00042386d6376420a6dfa6dd80d3e3d76213c 1818428 ros-jazzy-mujoco-sim-ros2-dbgsym_0-2026.08.29.14.49_amd64.ddeb
+ 22f97c20c810722b1462d6b64c9e0987dd7ff559 194754 ros-jazzy-mujoco-sim-ros2_0-2026.08.29.14.49_amd64.deb
 Checksums-Sha256:
- 77dbce34e160cc6d0d32e217d1b07b9efd1eecc4acd76c23d425a72dfa49fb80 1818830 ros-jazzy-mujoco-sim-ros2-dbgsym_0-2026.08.22.10.14_amd64.ddeb
- 1b7bc3fa6f8102e3d93240b2f1db21f44d6f1daac0d3f60b4a259466330384f4 194412 ros-jazzy-mujoco-sim-ros2_0-2026.08.22.10.14_amd64.deb
+ 54fa72ce97381a54d64708e546f484e8b9f29221bd7105354c6f8f1ca26c4e1f 1818428 ros-jazzy-mujoco-sim-ros2-dbgsym_0-2026.08.29.14.49_amd64.ddeb
+ c07c9ac05ad0eeb24da5444e63438b471c29f928bb69082180c5a9777adfbd78 194754 ros-jazzy-mujoco-sim-ros2_0-2026.08.29.14.49_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 22 Aug 2026 10:16:06 +0000
+Build-Date: Sat, 29 Aug 2026 14:50:51 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -110,8 +110,8 @@ Installed-Build-Depends:
  libcrypt1 (= 1:4.4.36-4build1),
  libctf-nobfd0 (= 2.42-4ubuntu2.10),
  libctf0 (= 2.42-4ubuntu2.10),
- libcurl3t64-gnutls (= 8.5.0-2ubuntu10.12),
- libcurl4t64 (= 8.5.0-2ubuntu10.12),
+ libcurl3t64-gnutls (= 8.5.0-2ubuntu10.13),
+ libcurl4t64 (= 8.5.0-2ubuntu10.13),
  libdb5.3t64 (= 5.3.28+dfsg2-7),
  libdebconfclient0 (= 0.271ubuntu3),
  libdebhelper-perl (= 13.14.1ubuntu5),
@@ -207,26 +207,26 @@ Installed-Build-Depends:
  libnuma1 (= 2.0.18-1ubuntu0.24.04.1),
  libopengl-dev (= 1.7.0-1build1),
  libopengl0 (= 1.7.0-1build1),
- libp11-kit0 (= 0.25.3-4ubuntu2.1),
- libpam-modules (= 1.5.3-5ubuntu5.6),
- libpam-modules-bin (= 1.5.3-5ubuntu5.6),
- libpam-runtime (= 1.5.3-5ubuntu5.6),
- libpam0g (= 1.5.3-5ubuntu5.6),
+ libp11-kit0 (= 0.25.3-4ubuntu2.2),
+ libpam-modules (= 1.5.3-5ubuntu5.7),
+ libpam-modules-bin (= 1.5.3-5ubuntu5.7),
+ libpam-runtime (= 1.5.3-5ubuntu5.7),
+ libpam0g (= 1.5.3-5ubuntu5.7),
  libpciaccess0 (= 0.17-3ubuntu0.24.04.2),
  libpcre2-8-0 (= 10.42-4ubuntu2.1),
- libperl5.38t64 (= 5.38.2-3.2ubuntu0.3),
+ libperl5.38t64 (= 5.38.2-3.2ubuntu0.4),
  libpipeline1 (= 1.5.7-2),
  libpkgconf3 (= 1.8.1-2build1),
  libpopt0 (= 1.19+dfsg-1build1),
- libproc2-0 (= 2:4.0.4-4ubuntu3.2),
+ libproc2-0 (= 2:4.0.4-4ubuntu3.3),
  libpsl5t64 (= 0.21.2-1.1build1),
  libpthread-stubs0-dev (= 0.4-1build3),
  libpython3-dev (= 3.12.3-0ubuntu2.1),
  libpython3-stdlib (= 3.12.3-0ubuntu2.1),
- libpython3.12-dev (= 3.12.3-1ubuntu0.15),
- libpython3.12-minimal (= 3.12.3-1ubuntu0.15),
- libpython3.12-stdlib (= 3.12.3-1ubuntu0.15),
- libpython3.12t64 (= 3.12.3-1ubuntu0.15),
+ libpython3.12-dev (= 3.12.3-1ubuntu0.16),
+ libpython3.12-minimal (= 3.12.3-1ubuntu0.16),
+ libpython3.12-stdlib (= 3.12.3-1ubuntu0.16),
+ libpython3.12t64 (= 3.12.3-1ubuntu0.16),
  libquadmath0 (= 14.2.0-4ubuntu2~24.04.1),
  libreadline8t64 (= 8.2-4build1),
  librhash0 (= 1.4.3-3build1),
@@ -245,8 +245,8 @@ Installed-Build-Depends:
  libspdlog1.12 (= 1:1.12.0+ds-2build1),
  libsqlite3-0 (= 3.45.1-1ubuntu2.7),
  libssh-4 (= 0.10.6-2ubuntu0.4),
- libssl-dev (= 3.0.13-0ubuntu3.12),
- libssl3t64 (= 3.0.13-0ubuntu3.12),
+ libssl-dev (= 3.0.13-0ubuntu3.15),
+ libssl3t64 (= 3.0.13-0ubuntu3.15),
  libstdc++-13-dev (= 13.3.0-6ubuntu2~24.04.1),
  libstdc++6 (= 14.2.0-4ubuntu2~24.04.1),
  libsub-override-perl (= 0.10-1),
@@ -307,16 +307,16 @@ Installed-Build-Depends:
  ncurses-base (= 6.4+20240113-1ubuntu2.1),
  ncurses-bin (= 6.4+20240113-1ubuntu2.1),
  netbase (= 6.4),
- openssl (= 3.0.13-0ubuntu3.12),
+ openssl (= 3.0.13-0ubuntu3.15),
  patch (= 2.7.6-7build3),
- perl (= 5.38.2-3.2ubuntu0.3),
- perl-base (= 5.38.2-3.2ubuntu0.3),
- perl-modules-5.38 (= 5.38.2-3.2ubuntu0.3),
+ perl (= 5.38.2-3.2ubuntu0.4),
+ perl-base (= 5.38.2-3.2ubuntu0.4),
+ perl-modules-5.38 (= 5.38.2-3.2ubuntu0.4),
  pkg-config (= 1.8.1-2build1),
  pkgconf (= 1.8.1-2build1),
  pkgconf-bin (= 1.8.1-2build1),
  po-debconf (= 1.0.21+nmu1),
- procps (= 2:4.0.4-4ubuntu3.2),
+ procps (= 2:4.0.4-4ubuntu3.3),
  pybind11-dev (= 2.11.1-2),
  pydocstyle (= 6.3.0-1.1),
  python3 (= 3.12.3-0ubuntu2.1),
@@ -359,9 +359,9 @@ Installed-Build-Depends:
  python3-typeguard (= 4.1.5-1),
  python3-yaml (= 6.0.1-2build2),
  python3-zipp (= 1.0.0-6ubuntu0.1),
- python3.12 (= 3.12.3-1ubuntu0.15),
- python3.12-dev (= 3.12.3-1ubuntu0.15),
- python3.12-minimal (= 3.12.3-1ubuntu0.15),
+ python3.12 (= 3.12.3-1ubuntu0.16),
+ python3.12-dev (= 3.12.3-1ubuntu0.16),
+ python3.12-minimal (= 3.12.3-1ubuntu0.16),
  rake (= 13.0.6-3),
  readline-common (= 8.2-4build1),
  ros-jazzy-action-msgs (= 2.0.4-1noble.20260612.054718),
@@ -443,7 +443,7 @@ Installed-Build-Depends:
  ros-jazzy-libstatistics-collector (= 1.7.4-1noble.20260615.132833),
  ros-jazzy-libyaml-vendor (= 1.6.4-2noble.20260603.150356),
  ros-jazzy-lifecycle-msgs (= 2.0.4-1noble.20260615.102420),
- ros-jazzy-mujoco-ament (= 0-2026.08.22.10.12),
+ ros-jazzy-mujoco-ament (= 0-2026.08.29.14.46),
  ros-jazzy-osrf-pycommon (= 2.1.7-1noble.20260225.055811),
  ros-jazzy-pal-statistics (= 2.7.0-1noble.20260615.144746),
  ros-jazzy-pal-statistics-msgs (= 2.7.0-1noble.20260615.114217),
@@ -552,4 +552,4 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1787393682"
+ SOURCE_DATE_EPOCH="1788014960"
