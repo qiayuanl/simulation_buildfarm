@@ -1,124 +1,124 @@
 Package: ros-jazzy-mujoco-ament
 Architecture: amd64
-Version: 0-2026.09.05.13.06
+Version: 0-2026.09.10.13.56
 Priority: optional
 Section: misc
 Maintainer: Qiayuan Liao <liaoqiayuan@gamil.com>
 Installed-Size: 4526
 Depends: libc6 (>= 2.34)
-Filename: ./ros-jazzy-mujoco-ament_0-2026.09.05.13.06_amd64.deb
-Size: 1485180
-MD5sum: ebfd9e605c07acae0cbf5aa80bab4c6d
-SHA1: 5524b825c1a208f63c7c1ea5d8404f31f64e9f31
-SHA256: 9f7ac370f859e443cd91911a20a7c8d2cb4cbd3fff26848e736de3ff3f06be94
-SHA512: bd52155c9a27a904855031271d963a8c30f42f208d3869d4479375e9dccd69e6b9d2f49cb0dd960e8360197f37a4a87bf9a6286f8c641b0f8a5eb1488df28f72
+Filename: ./ros-jazzy-mujoco-ament_0-2026.09.10.13.56_amd64.deb
+Size: 1485186
+MD5sum: 5e3b3be43195b210e886bc6f0b4d0542
+SHA1: 1574c774591335705cd8eaa3998c11b05fff6c24
+SHA256: b56508e2f89f94944031620128a5f12d44a300804a9fa5dbff94f01070798f9d
+SHA512: 6fc00f453d85576fc4ad07d3a0be567a11e7d8e71372b364b7dad6d0b5d36979d742a62b90f1e449f9f8cb6b4cf757ee98556a1e95371905d735cc1a6621559d
 Description: Model of legged robot
 
 Package: ros-jazzy-mujoco-ros2-control-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2026.09.05.13.10
+Version: 0-2026.09.10.14.00
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-jazzy-mujoco-ros2-control
 Maintainer: Sangtaek Lee <sangteak601@gmail.com>
 Installed-Size: 3211
-Depends: ros-jazzy-mujoco-ros2-control (= 0-2026.09.05.13.10)
-Filename: ./ros-jazzy-mujoco-ros2-control-dbgsym_0-2026.09.05.13.10_amd64.ddeb
-Size: 3061102
-MD5sum: 6523588a99b801479869df61c8db4b34
-SHA1: fb7a641f8e496ee6b67fec4017d9835781b8335b
-SHA256: c8c24d3a071064faed1a5b58497174386761e9585729cfdd6c769cb16d536287
-SHA512: f994585ef39f9075e4af54cd48189f2105ecc6b5b0638f3e04a8d43966be62e2daafa3f74f5959b4a1db1ca9bfdca7894982e25fdadde805dfca16e65c19feb0
+Depends: ros-jazzy-mujoco-ros2-control (= 0-2026.09.10.14.00)
+Filename: ./ros-jazzy-mujoco-ros2-control-dbgsym_0-2026.09.10.14.00_amd64.ddeb
+Size: 3061036
+MD5sum: e50720ae6d7aaa212f0d23273c51c5d0
+SHA1: bc7103a64909c153984cefab3af4c4e4bd91bb1a
+SHA256: a7822dec708f79ef5f4a56c530d430c924e0ac919843655da6e8afbdfec6dc71
+SHA512: db42d542fb6f6adb13a97de13717de6d8c84fc5193b82470d722d4cab2301ee687ef979f28f268d818bcfe026142bbbc4e96cf5a22434c43036b944a84a55240
 Description: debug symbols for ros-jazzy-mujoco-ros2-control
-Build-Ids: 457f9069bdb1d28e7977aaec81e6082b4f39cd66 f37b3e808270a5536e3cb6fafef5f71ee691ab1f
+Build-Ids: 345053dbe8ebbacc49403410f70a87da984b68ce 94031f2c2769c55d393a2a23e9f39b3931cc433d
 
 Package: ros-jazzy-mujoco-ros2-control-demos-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2026.09.05.13.07
+Version: 0-2026.09.10.13.57
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-jazzy-mujoco-ros2-control-demos
 Maintainer: Sangtaek Lee <sangteak601@gmail.com>
 Installed-Size: 5333
-Depends: ros-jazzy-mujoco-ros2-control-demos (= 0-2026.09.05.13.07)
-Filename: ./ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.09.05.13.07_amd64.ddeb
-Size: 4629992
-MD5sum: b931584098eca5a0fac4fa0610450134
-SHA1: 89ca7515ce5e38043b7e2dedfe9a56bd3f3c909d
-SHA256: 092c989e700a930f2c8f35dd206b0a09ee85695d2584944d76f2706b4260666b
-SHA512: f58314e725fb240122135b24258767ffe4e8fdd0b7a9d5c38b36c246df94b3fb885d1d971f6f2daa1ab6328bf65f341d751dc01e180696377c5ca066af7904ce
+Depends: ros-jazzy-mujoco-ros2-control-demos (= 0-2026.09.10.13.57)
+Filename: ./ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.09.10.13.57_amd64.ddeb
+Size: 4635236
+MD5sum: 7a03120a8796ec6bc9ab7e7d63d9c608
+SHA1: 6cd843ae0012cfdc9e4a361469789a119eb28b43
+SHA256: 0ea47a9f7451880795870ef807262aa1a0cf1237c0085ecc444e7d0bf6c04bf8
+SHA512: bc12a9f60ec1a988f80c265d4a042fc64bc3536a0f45a8f4e20b345bd640b70ea1da09ce6a9f2f213f80e2080ff8ccac841a06bfd682fa195c4d3ae8e87324b2
 Description: debug symbols for ros-jazzy-mujoco-ros2-control-demos
-Build-Ids: 34e6e7d90d1196c21665b2b6931a2a72c3c56ff4 3edd65e6fa067b8151c61e3489ff31a090f5b557 942355fd75c37a9a63684c63f55c4546d01aad7a a42aa21c7f9f1adbb3cc6e158233be8baf9612cf b2422deb725b2eb0a994b41100aee20f488f04db d14e0f86f5a7c72286929b448e7eb750a83bc2d0 f1bb5ef50c0195032708de2731756f486f003feb
+Build-Ids: 0673239fc24006fda6347944a073a38f732bb380 20f3e5283920263f822addc50d7cb737703ec34a 22d8760bc60513dcec923ff02a083555012c4786 2afd432758bf6f901404095a1a497d468b1d29ea e5695d1a5b4f0e52660cd0a0ecb5387c7496cb96 eff88298609b6a7ef828804c32745b6a04c42065 fe1cda5668d0c1970888c7a86689d0c8c95f6b74
 
 Package: ros-jazzy-mujoco-ros2-control-demos
 Architecture: amd64
-Version: 0-2026.09.05.13.07
+Version: 0-2026.09.10.13.57
 Priority: optional
 Section: misc
 Maintainer: Sangtaek Lee <sangteak601@gmail.com>
 Installed-Size: 1020
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-control-msgs, ros-jazzy-force-torque-sensor-broadcaster, ros-jazzy-imu-sensor-broadcaster, ros-jazzy-joint-trajectory-controller, ros-jazzy-position-controllers, ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-std-msgs, ros-jazzy-velocity-controllers
-Filename: ./ros-jazzy-mujoco-ros2-control-demos_0-2026.09.05.13.07_amd64.deb
-Size: 143020
-MD5sum: c10112a77dde5d098a85cc800f544d9a
-SHA1: 75e038fb354dc3bfc2abc505971a44be5e188737
-SHA256: 379125526ca52ff869b10feffba37dd3f48fe235694a08e8211342c13685520b
-SHA512: 8fb619ddff3c9fdeb45caa0c39986a079d3fb9014ce35ede88b3552ba9d6a8afce8f4fbefe9c52b54f0ea1dbf4e318f028771abaee3f04a054090fa1911635ba
+Filename: ./ros-jazzy-mujoco-ros2-control-demos_0-2026.09.10.13.57_amd64.deb
+Size: 143004
+MD5sum: e2a133d274150746f4fdfeca9b3cae34
+SHA1: 3b20b94f43a5965e4b4d56bf1a92765db697dd8b
+SHA256: 08338eacb94a36057d9e74f3c98ba69f26411025e3095e39f99127454609b5fc
+SHA512: cc5d70b311407aa5a6e464fa71e8d9819b63681952a07ab57122f01c7301fadc7150b514676950d19165490f33241527d58b1bedc97b6b604f7d672cb330f032
 Description: mujoco_ros2_control_demos
 
 Package: ros-jazzy-mujoco-ros2-control
 Architecture: amd64
-Version: 0-2026.09.05.13.10
+Version: 0-2026.09.10.14.00
 Priority: optional
 Section: misc
 Maintainer: Sangtaek Lee <sangteak601@gmail.com>
 Installed-Size: 542
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), ros-jazzy-mujoco-ament, libeigen3-dev, libglfw3-dev, ros-jazzy-controller-manager, ros-jazzy-effort-controllers, ros-jazzy-hardware-interface, ros-jazzy-joint-limits, ros-jazzy-joint-state-broadcaster, ros-jazzy-mujoco-sim-ros2, ros-jazzy-nav-msgs, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2controlcli, ros-jazzy-urdf
-Filename: ./ros-jazzy-mujoco-ros2-control_0-2026.09.05.13.10_amd64.deb
-Size: 163016
-MD5sum: 95a13373fdd9cf87c1684881c411fd2f
-SHA1: c084147de3d2a1f7182c8376b28b19fced76e9a2
-SHA256: 9941a87b3985bd2165a28d4640775b1d3d24a09f3f0ba4801bf5ecbd332643e6
-SHA512: fa538846480218ab0f917b67c79b6921439e64807bbe3b19703feb40d23819d218cb04a2c0af58f507ba992e1e4fe0f632a8f0f9f4d9d53f823c36b92e6dd7e7
+Filename: ./ros-jazzy-mujoco-ros2-control_0-2026.09.10.14.00_amd64.deb
+Size: 162976
+MD5sum: e8304118020cb38536210244cb155de0
+SHA1: c7ce1b2583d0140d9874d82df9ea18ba2061f2dc
+SHA256: 5070f4f5d524957d4db5c7dcd0ff82c141ad36bbf2871b4a345f067b8aed4548
+SHA512: 1e35f2874cd7d6dbbb01ca3411bf719e384b470a42688ecc95f835eb03abf5edaae10034496aa6ce222b6a4a9cee2b35b718f1a26e9083cbd6426ea55f4c4057
 Description: mujoco_ros2_control
 
 Package: ros-jazzy-mujoco-sim-ros2-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2026.09.05.13.09
+Version: 0-2026.09.10.13.59
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-jazzy-mujoco-sim-ros2
 Maintainer: rdu <ruixiang.du@gmail.com>
-Installed-Size: 1917
-Depends: ros-jazzy-mujoco-sim-ros2 (= 0-2026.09.05.13.09)
-Filename: ./ros-jazzy-mujoco-sim-ros2-dbgsym_0-2026.09.05.13.09_amd64.ddeb
-Size: 1818496
-MD5sum: e09c2f532e0c6b80517daefced52ac40
-SHA1: 5ecf9c2c397c7190b3d111da99b495b6d0da0f29
-SHA256: 22cc99a529fd1340d454f661009f28945b591ca6163d32bf22634973788fceac
-SHA512: 697e0c542ea040bafc5ae79512d6e9dd39837993a95bcf51d7d4adaf90e7c6da8b9dbcb02d6991f483abff5d0173467368088e8911b9f2d282c6e47220e8acfb
+Installed-Size: 1916
+Depends: ros-jazzy-mujoco-sim-ros2 (= 0-2026.09.10.13.59)
+Filename: ./ros-jazzy-mujoco-sim-ros2-dbgsym_0-2026.09.10.13.59_amd64.ddeb
+Size: 1818404
+MD5sum: 850cccebf882f024dadbe0459dd59731
+SHA1: 1feb3b9e82878ac208399d91e7b5141a77c9c993
+SHA256: ec28b14454158014c73c77ec374caff956bb08ef6db36d91bd6e76db74b858e3
+SHA512: 1658d8a885579a5a159ced8be4e775ebc687e777478456499d3bbfe5c5dc636950938f1dfd8c39d7bb801f7e5cc7754b7964dac2777d533d94dc08f26a27730b
 Description: debug symbols for ros-jazzy-mujoco-sim-ros2
-Build-Ids: ba1968f45a48333bb605930ea932b10c2ce8e1f7
+Build-Ids: cc0d814f7014a2de5e221d810761cac8aa858ef3
 
 Package: ros-jazzy-mujoco-sim-ros2
 Architecture: amd64
-Version: 0-2026.09.05.13.09
+Version: 0-2026.09.10.13.59
 Priority: optional
 Section: misc
 Maintainer: rdu <ruixiang.du@gmail.com>
 Installed-Size: 543
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libglfw3 (>= 3.2), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), ros-jazzy-mujoco-ament, git, libglfw3-dev, ros-jazzy-ament-index-cpp, ros-jazzy-controller-manager, ros-jazzy-pluginlib, ros-jazzy-rclcpp
-Filename: ./ros-jazzy-mujoco-sim-ros2_0-2026.09.05.13.09_amd64.deb
-Size: 194442
-MD5sum: cec15b3bda54aba4dba00f65446a7c52
-SHA1: ab386617ebbbfa8f050ccc94070cb6ff1e8314bb
-SHA256: 81d4766a1c034b9ff572d9cb99da6cfd0dcee1bb43c4fdc3faeb05480d991726
-SHA512: 567da9a4d43fc6b53e36f05f583c1390b90690b0e057ce2c7b02bbb936006d46e6fd5ac503ec05554bb8db8c37bf801fb342cb57ce7ae4d00f59fe43c0536cce
+Filename: ./ros-jazzy-mujoco-sim-ros2_0-2026.09.10.13.59_amd64.deb
+Size: 194630
+MD5sum: 8932c4dcb3c94329d187e2b48a0faf22
+SHA1: 2fbd66ab9dcdf415e8c39596b52e513009806da0
+SHA256: a3bf3bdbd01d7545084e872e2772765d31330024079d221c0ee8310b592b1d44
+SHA512: 1d08fabbd8cbaa3283b85579caf91bc1b3610139d13e88c1a0de759f27cf00c4b213b5d1bf00d9e4a1e95fdc36396028a4fbea54603e513c6b0958480db4d30e
 Description: Mujoco simulate app with ROS2 integration
 

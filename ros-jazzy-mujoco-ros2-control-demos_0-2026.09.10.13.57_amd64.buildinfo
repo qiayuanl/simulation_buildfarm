@@ -2,19 +2,19 @@ Format: 1.0
 Source: ros-jazzy-mujoco-ros2-control-demos
 Binary: ros-jazzy-mujoco-ros2-control-demos ros-jazzy-mujoco-ros2-control-demos-dbgsym
 Architecture: amd64
-Version: 0-2026.09.05.13.07
+Version: 0-2026.09.10.13.57
 Checksums-Md5:
- b931584098eca5a0fac4fa0610450134 4629992 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.09.05.13.07_amd64.ddeb
- c10112a77dde5d098a85cc800f544d9a 143020 ros-jazzy-mujoco-ros2-control-demos_0-2026.09.05.13.07_amd64.deb
+ 7a03120a8796ec6bc9ab7e7d63d9c608 4635236 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.09.10.13.57_amd64.ddeb
+ e2a133d274150746f4fdfeca9b3cae34 143004 ros-jazzy-mujoco-ros2-control-demos_0-2026.09.10.13.57_amd64.deb
 Checksums-Sha1:
- 89ca7515ce5e38043b7e2dedfe9a56bd3f3c909d 4629992 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.09.05.13.07_amd64.ddeb
- 75e038fb354dc3bfc2abc505971a44be5e188737 143020 ros-jazzy-mujoco-ros2-control-demos_0-2026.09.05.13.07_amd64.deb
+ 6cd843ae0012cfdc9e4a361469789a119eb28b43 4635236 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.09.10.13.57_amd64.ddeb
+ 3b20b94f43a5965e4b4d56bf1a92765db697dd8b 143004 ros-jazzy-mujoco-ros2-control-demos_0-2026.09.10.13.57_amd64.deb
 Checksums-Sha256:
- 092c989e700a930f2c8f35dd206b0a09ee85695d2584944d76f2706b4260666b 4629992 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.09.05.13.07_amd64.ddeb
- 379125526ca52ff869b10feffba37dd3f48fe235694a08e8211342c13685520b 143020 ros-jazzy-mujoco-ros2-control-demos_0-2026.09.05.13.07_amd64.deb
+ 0ea47a9f7451880795870ef807262aa1a0cf1237c0085ecc444e7d0bf6c04bf8 4635236 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.09.10.13.57_amd64.ddeb
+ 08338eacb94a36057d9e74f3c98ba69f26411025e3095e39f99127454609b5fc 143004 ros-jazzy-mujoco-ros2-control-demos_0-2026.09.10.13.57_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 05 Sep 2026 13:09:05 +0000
+Build-Date: Thu, 10 Sep 2026 13:58:55 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -23,7 +23,7 @@ Installed-Build-Depends:
  automake (= 1:1.16.5-1.3ubuntu1),
  autopoint (= 0.21-14ubuntu2),
  autotools-dev (= 20220109.1),
- base-files (= 13ubuntu10.4),
+ base-files (= 13ubuntu10.5),
  base-passwd (= 3.6.3build1),
  bash (= 5.2.21-2ubuntu4),
  binutils (= 2.42-4ubuntu2.10),
@@ -95,10 +95,10 @@ Installed-Build-Depends:
  libbrotli1 (= 1.1.0-2build2),
  libbsd0 (= 0.12.1-1build1.1),
  libbz2-1.0 (= 1.0.8-5.1ubuntu0.1),
- libc-bin (= 2.39-0ubuntu8.8),
- libc-dev-bin (= 2.39-0ubuntu8.8),
- libc6 (= 2.39-0ubuntu8.8),
- libc6-dev (= 2.39-0ubuntu8.8),
+ libc-bin (= 2.39-0ubuntu8.9),
+ libc-dev-bin (= 2.39-0ubuntu8.9),
+ libc6 (= 2.39-0ubuntu8.9),
+ libc6-dev (= 2.39-0ubuntu8.9),
  libcap-dev (= 1:2.66-5ubuntu2.4),
  libcap-ng0 (= 0.8.4-2build2),
  libcap2 (= 1:2.66-5ubuntu2.4),
@@ -198,10 +198,10 @@ Installed-Build-Depends:
  libpsl5t64 (= 0.21.2-1.1build1),
  libpython3-dev (= 3.12.3-0ubuntu2.1),
  libpython3-stdlib (= 3.12.3-0ubuntu2.1),
- libpython3.12-dev (= 3.12.3-1ubuntu0.16),
- libpython3.12-minimal (= 3.12.3-1ubuntu0.16),
- libpython3.12-stdlib (= 3.12.3-1ubuntu0.16),
- libpython3.12t64 (= 3.12.3-1ubuntu0.16),
+ libpython3.12-dev (= 3.12.3-1ubuntu0.17),
+ libpython3.12-minimal (= 3.12.3-1ubuntu0.17),
+ libpython3.12-stdlib (= 3.12.3-1ubuntu0.17),
+ libpython3.12t64 (= 3.12.3-1ubuntu0.17),
  libquadmath0 (= 14.2.0-4ubuntu2~24.04.1),
  libreadline8t64 (= 8.2-4build1),
  librhash0 (= 1.4.3-3build1),
@@ -270,7 +270,7 @@ Installed-Build-Depends:
  pydocstyle (= 6.3.0-1.1),
  python3 (= 3.12.3-0ubuntu2.1),
  python3-argcomplete (= 3.1.4-1ubuntu0.1),
- python3-catkin-pkg-modules (= 1.1.0-2),
+ python3-catkin-pkg-modules (= 1.1.1-1),
  python3-dateutil (= 2.8.2-3ubuntu1),
  python3-dev (= 3.12.3-0ubuntu2.1),
  python3-docutils (= 0.20.1+dfsg-3),
@@ -306,9 +306,9 @@ Installed-Build-Depends:
  python3-typeguard (= 4.1.5-1),
  python3-yaml (= 6.0.1-2build2),
  python3-zipp (= 1.0.0-6ubuntu0.1),
- python3.12 (= 3.12.3-1ubuntu0.16),
- python3.12-dev (= 3.12.3-1ubuntu0.16),
- python3.12-minimal (= 3.12.3-1ubuntu0.16),
+ python3.12 (= 3.12.3-1ubuntu0.17),
+ python3.12-dev (= 3.12.3-1ubuntu0.17),
+ python3.12-minimal (= 3.12.3-1ubuntu0.17),
  rake (= 13.0.6-3),
  readline-common (= 8.2-4build1),
  ros-jazzy-action-msgs (= 2.0.4-1noble.20260612.054718),
@@ -495,4 +495,4 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1788613638"
+ SOURCE_DATE_EPOCH="1789048642"
