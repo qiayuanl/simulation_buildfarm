@@ -2,16 +2,16 @@ Format: 1.0
 Source: ros-jazzy-mujoco-ament
 Binary: ros-jazzy-mujoco-ament
 Architecture: amd64
-Version: 0-2026.09.12.13.13
+Version: 0-2026.09.13.13.58
 Checksums-Md5:
- dc323fe9201182e0f9ba3d37f314243e 1485160 ros-jazzy-mujoco-ament_0-2026.09.12.13.13_amd64.deb
+ c0d212cc3147f4975881aa2803a4ca07 1485298 ros-jazzy-mujoco-ament_0-2026.09.13.13.58_amd64.deb
 Checksums-Sha1:
- 237c5db38d4fd733a72dea5079575cd73d524c60 1485160 ros-jazzy-mujoco-ament_0-2026.09.12.13.13_amd64.deb
+ 8c2a9f0dd3869cfc5ebec1af4a7fcf1c572b71b2 1485298 ros-jazzy-mujoco-ament_0-2026.09.13.13.58_amd64.deb
 Checksums-Sha256:
- f52dc05879db3905559a0b0e007979e859bfe242ca3afe220d6b856b04048b11 1485160 ros-jazzy-mujoco-ament_0-2026.09.12.13.13_amd64.deb
+ 2c633f517426a90227db74433d651d8c1f877f081f98f029fadfb9cc7afda6c9 1485298 ros-jazzy-mujoco-ament_0-2026.09.13.13.58_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 12 Sep 2026 13:13:59 +0000
+Build-Date: Sun, 13 Sep 2026 13:58:54 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -258,4 +258,4 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1789218804"
+ SOURCE_DATE_EPOCH="1789307900"
