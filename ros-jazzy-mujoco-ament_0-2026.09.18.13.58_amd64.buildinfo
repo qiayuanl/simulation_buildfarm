@@ -2,16 +2,16 @@ Format: 1.0
 Source: ros-jazzy-mujoco-ament
 Binary: ros-jazzy-mujoco-ament
 Architecture: amd64
-Version: 0-2026.09.13.13.58
+Version: 0-2026.09.18.13.58
 Checksums-Md5:
- c0d212cc3147f4975881aa2803a4ca07 1485298 ros-jazzy-mujoco-ament_0-2026.09.13.13.58_amd64.deb
+ 0cfdd46bfa24bd7c79e026f067a78f4b 1485382 ros-jazzy-mujoco-ament_0-2026.09.18.13.58_amd64.deb
 Checksums-Sha1:
- 8c2a9f0dd3869cfc5ebec1af4a7fcf1c572b71b2 1485298 ros-jazzy-mujoco-ament_0-2026.09.13.13.58_amd64.deb
+ c3cbecf5d018e7fd59ee7d35376d5b4babe7bd28 1485382 ros-jazzy-mujoco-ament_0-2026.09.18.13.58_amd64.deb
 Checksums-Sha256:
- 2c633f517426a90227db74433d651d8c1f877f081f98f029fadfb9cc7afda6c9 1485298 ros-jazzy-mujoco-ament_0-2026.09.13.13.58_amd64.deb
+ 3fee54328b260f7740929b1e1f7b3889003f67a5e7fdd6a5799019548884df01 1485382 ros-jazzy-mujoco-ament_0-2026.09.18.13.58_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 13 Sep 2026 13:58:54 +0000
+Build-Date: Fri, 18 Sep 2026 13:58:55 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -115,7 +115,7 @@ Installed-Build-Depends:
  libgomp1 (= 14.2.0-4ubuntu2~24.04.1),
  libgpg-error0 (= 1.47-3build2.1),
  libgprofng0 (= 2.42-4ubuntu2.10),
- libgssapi-krb5-2 (= 1.20.1-6ubuntu2.8),
+ libgssapi-krb5-2 (= 1.20.1-6ubuntu2.10),
  libgtest-dev (= 1.14.0-1),
  libhogweed6t64 (= 3.9.1-2.2build1.1),
  libhwasan0 (= 14.2.0-4ubuntu2~24.04.1),
@@ -125,10 +125,10 @@ Installed-Build-Depends:
  libitm1 (= 14.2.0-4ubuntu2~24.04.1),
  libjansson4 (= 2.14-2build2),
  libjsoncpp25 (= 1.9.5-6build1),
- libk5crypto3 (= 1.20.1-6ubuntu2.8),
+ libk5crypto3 (= 1.20.1-6ubuntu2.10),
  libkeyutils1 (= 1.6.3-3build1),
- libkrb5-3 (= 1.20.1-6ubuntu2.8),
- libkrb5support0 (= 1.20.1-6ubuntu2.8),
+ libkrb5-3 (= 1.20.1-6ubuntu2.10),
+ libkrb5support0 (= 1.20.1-6ubuntu2.10),
  libldap2 (= 2.6.10+dfsg-0ubuntu0.24.04.1),
  liblsan0 (= 14.2.0-4ubuntu2~24.04.1),
  liblz4-1 (= 1.9.4-1build1.1),
@@ -148,7 +148,7 @@ Installed-Build-Depends:
  libpam-runtime (= 1.5.3-5ubuntu5.7),
  libpam0g (= 1.5.3-5ubuntu5.7),
  libpcre2-8-0 (= 10.42-4ubuntu2.1),
- libperl5.38t64 (= 5.38.2-3.2ubuntu0.4),
+ libperl5.38t64 (= 5.38.2-3.2ubuntu0.6),
  libpipeline1 (= 1.5.7-2),
  libproc2-0 (= 2:4.0.4-4ubuntu3.3),
  libpsl5t64 (= 0.21.2-1.1build1),
@@ -165,7 +165,7 @@ Installed-Build-Depends:
  libselinux1 (= 3.5-2ubuntu2.1),
  libsframe1 (= 2.42-4ubuntu2.10),
  libsmartcols1 (= 2.39.3-9ubuntu6.6),
- libsqlite3-0 (= 3.45.1-1ubuntu2.7),
+ libsqlite3-0 (= 3.45.1-1ubuntu2.8),
  libssh-4 (= 0.10.6-2ubuntu0.5),
  libssl3t64 (= 3.0.13-0ubuntu3.15),
  libstdc++-13-dev (= 13.3.0-6ubuntu2~24.04.1),
@@ -196,9 +196,9 @@ Installed-Build-Depends:
  ncurses-bin (= 6.4+20240113-1ubuntu2.2),
  netbase (= 6.4),
  patch (= 2.7.6-7build3),
- perl (= 5.38.2-3.2ubuntu0.4),
- perl-base (= 5.38.2-3.2ubuntu0.4),
- perl-modules-5.38 (= 5.38.2-3.2ubuntu0.4),
+ perl (= 5.38.2-3.2ubuntu0.6),
+ perl-base (= 5.38.2-3.2ubuntu0.6),
+ perl-modules-5.38 (= 5.38.2-3.2ubuntu0.6),
  po-debconf (= 1.0.21+nmu1),
  procps (= 2:4.0.4-4ubuntu3.3),
  python3 (= 3.12.3-0ubuntu2.1),
@@ -258,4 +258,4 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1789307900"
+ SOURCE_DATE_EPOCH="1789739901"

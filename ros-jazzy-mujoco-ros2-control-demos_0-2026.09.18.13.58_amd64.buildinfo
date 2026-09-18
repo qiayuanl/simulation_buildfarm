@@ -2,19 +2,19 @@ Format: 1.0
 Source: ros-jazzy-mujoco-ros2-control-demos
 Binary: ros-jazzy-mujoco-ros2-control-demos ros-jazzy-mujoco-ros2-control-demos-dbgsym
 Architecture: amd64
-Version: 0-2026.09.13.13.58
+Version: 0-2026.09.18.13.58
 Checksums-Md5:
- a4010e85cb9bb7e09f3203ad48a37b70 4632360 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.09.13.13.58_amd64.ddeb
- 46e83227c403ca4c25654a0ee55c8318 142988 ros-jazzy-mujoco-ros2-control-demos_0-2026.09.13.13.58_amd64.deb
+ 081c3004a4779a401f70ae4cbe28ee78 4617348 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.09.18.13.58_amd64.ddeb
+ 5ac44a2c07e5ae07f94ef9854560eaeb 143004 ros-jazzy-mujoco-ros2-control-demos_0-2026.09.18.13.58_amd64.deb
 Checksums-Sha1:
- e4eecb42826149fef923b78ed24c149a52c3d6f3 4632360 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.09.13.13.58_amd64.ddeb
- 123589c334de25bba20d223f9a08c8e78ecc706c 142988 ros-jazzy-mujoco-ros2-control-demos_0-2026.09.13.13.58_amd64.deb
+ 5c2808bcee45b787cf2203fb9da5cb4dbaaa6b6c 4617348 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.09.18.13.58_amd64.ddeb
+ 58e9952084cd043678ade6088f95c95c36ca4970 143004 ros-jazzy-mujoco-ros2-control-demos_0-2026.09.18.13.58_amd64.deb
 Checksums-Sha256:
- 042d02048e78ef6a7e182c7187ed614851039f53f8c2ffcdbfa6a6e97d69987f 4632360 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.09.13.13.58_amd64.ddeb
- 9b2ddd80945aafaeaa400429359db0d40773ac5b9f825faa2dcc251e23160ec9 142988 ros-jazzy-mujoco-ros2-control-demos_0-2026.09.13.13.58_amd64.deb
+ 62abb744f866419eaaf49ba967c2ad53252d3ce242809b0bff45d33d86653c3a 4617348 ros-jazzy-mujoco-ros2-control-demos-dbgsym_0-2026.09.18.13.58_amd64.ddeb
+ c146ce910c57ee0ac026dd208169408291abb07d36e581f8def222493cdf2ead 143004 ros-jazzy-mujoco-ros2-control-demos_0-2026.09.18.13.58_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sun, 13 Sep 2026 14:00:29 +0000
+Build-Date: Fri, 18 Sep 2026 14:00:43 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -140,7 +140,7 @@ Installed-Build-Depends:
  libgomp1 (= 14.2.0-4ubuntu2~24.04.1),
  libgpg-error0 (= 1.47-3build2.1),
  libgprofng0 (= 2.42-4ubuntu2.10),
- libgssapi-krb5-2 (= 1.20.1-6ubuntu2.8),
+ libgssapi-krb5-2 (= 1.20.1-6ubuntu2.10),
  libgtest-dev (= 1.14.0-1),
  libhogweed6t64 (= 3.9.1-2.2build1.1),
  libhwasan0 (= 14.2.0-4ubuntu2~24.04.1),
@@ -153,11 +153,11 @@ Installed-Build-Depends:
  libjs-sphinxdoc (= 7.2.6-6),
  libjs-underscore (= 1.13.4~dfsg+~1.11.4-3),
  libjsoncpp25 (= 1.9.5-6build1),
- libk5crypto3 (= 1.20.1-6ubuntu2.8),
+ libk5crypto3 (= 1.20.1-6ubuntu2.10),
  libkeyutils1 (= 1.6.3-3build1),
  libkmod2 (= 31+20240202-2ubuntu7.2),
- libkrb5-3 (= 1.20.1-6ubuntu2.8),
- libkrb5support0 (= 1.20.1-6ubuntu2.8),
+ libkrb5-3 (= 1.20.1-6ubuntu2.10),
+ libkrb5support0 (= 1.20.1-6ubuntu2.10),
  liblapack3 (= 3.12.0-3build1.1),
  libldap2 (= 2.6.10+dfsg-0ubuntu0.24.04.1),
  libllvm18 (= 1:18.1.3-1ubuntu1),
@@ -190,7 +190,7 @@ Installed-Build-Depends:
  libpam-runtime (= 1.5.3-5ubuntu5.7),
  libpam0g (= 1.5.3-5ubuntu5.7),
  libpcre2-8-0 (= 10.42-4ubuntu2.1),
- libperl5.38t64 (= 5.38.2-3.2ubuntu0.4),
+ libperl5.38t64 (= 5.38.2-3.2ubuntu0.6),
  libpipeline1 (= 1.5.7-2),
  libpkgconf3 (= 1.8.1-2build1),
  libpopt0 (= 1.19+dfsg-1build1),
@@ -216,7 +216,7 @@ Installed-Build-Depends:
  libsmartcols1 (= 2.39.3-9ubuntu6.6),
  libspdlog-dev (= 1:1.12.0+ds-2build1),
  libspdlog1.12 (= 1:1.12.0+ds-2build1),
- libsqlite3-0 (= 3.45.1-1ubuntu2.7),
+ libsqlite3-0 (= 3.45.1-1ubuntu2.8),
  libssh-4 (= 0.10.6-2ubuntu0.5),
  libssl-dev (= 3.0.13-0ubuntu3.15),
  libssl3t64 (= 3.0.13-0ubuntu3.15),
@@ -258,9 +258,9 @@ Installed-Build-Depends:
  netbase (= 6.4),
  openssl (= 3.0.13-0ubuntu3.15),
  patch (= 2.7.6-7build3),
- perl (= 5.38.2-3.2ubuntu0.4),
- perl-base (= 5.38.2-3.2ubuntu0.4),
- perl-modules-5.38 (= 5.38.2-3.2ubuntu0.4),
+ perl (= 5.38.2-3.2ubuntu0.6),
+ perl-base (= 5.38.2-3.2ubuntu0.6),
+ perl-modules-5.38 (= 5.38.2-3.2ubuntu0.6),
  pkg-config (= 1.8.1-2build1),
  pkgconf (= 1.8.1-2build1),
  pkgconf-bin (= 1.8.1-2build1),
@@ -495,4 +495,4 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1789307938"
+ SOURCE_DATE_EPOCH="1789739938"
